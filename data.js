@@ -1,9 +1,14 @@
 export const bio = [
-    `I have attended Northern Illinois University since 2019 where I graduated with a Bachelor's of Science in Mechatronics Engineering and am currently working 
-    towards my Master's in Mechanical Engineering. During my time at NIU, I have participated in the development of autonomous robots in Dr. Ji-Chul Ryu's Autonomous Robotic Manipulation Laboratory.`,
-    `From my experiences I have developed skills in robot kinematics/dynamics, control theory, mechatronics, and embedded software development.`,
-    `Much of my work has involved the development and implementation of algorithms onto robotic systems. Examples of problems I have worked on deal with 
-    state estimation and control, path planning, mechatronic system integration, robotic hardware and software development, automation, and artificial intelligence.`,
+    `Hello, welcome to my portfolio! My name is Luisa Chiu. I am currently pursuing a Master's Degree in Mechanical Engineering at Cal Poly San Luis Obispo. In my undergraduate studies, I
+    majored in Mechanical Engineering with a concentration in Mechatronics and completed a minor in Computer Science.` 
+    `During my time at Cal Poly, I gained experience in designing, manufacturing, and testing mechanical systems by developing software 
+    for microcontrollers to interact with actuators, sensors, and more. Through my school and work experiences, I developed knowledge and skills pertaining to:
+    robotics kinematics and dynamics, open and closed-loop control systems, 3D CAD design, 3D printing, and PCB design.`
+    
+    `Outside of school, I like to be active by playing volleyball and flag football. I also enjoy baking sweets and cooking delicious food
+    for my friends and family. I love crafting, trying new food places, and learning new sports. To conclude, as a student focusing on mechatronics-related
+    courses in my graduate studies, I am passionate and fascinated about the intersection between mechanical engineering, electronics, and computer science.
+    I love all things robotics, and I am always looking for opportunities to learn more about it!`,
 ];
 
 export const skills = [
