@@ -16,7 +16,6 @@ export const education = [
         duration: "Jan 2022 - June 2024",
         subtitle: "Cal Poly San Luis Obispo",
         details: ["Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
-            "Focus in Robotics, Dynamics, and Controls",
             "GPA: 3.75"],
         tags: [
             "Autonomous Mobile Robotics",
