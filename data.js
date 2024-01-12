@@ -10,6 +10,42 @@ export const bio = [
     I love all things robotics, and I am always looking for opportunities to learn more about it!`,
 ];
 
+export const education = [
+    {
+        title: "M.S. in Mechanical Engineering",
+        duration: "Jan 2022 - June 2024",
+        subtitle: "Cal Poly San Luis Obispo",
+        details: ["Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
+            "Focus in Robotics, Dynamics, and Controls",
+            "GPA: 3.75"],
+        tags: [
+            "Autonomous Mobile Robotics",
+            "Advanced Deep Learning",
+            "Computer Vision",
+            "System Dynamics",
+            "Mechanical Control System Design",
+            "Computational Intelligence"
+        ],
+        icon: "university",
+    },
+    {
+        title: "B.S. in Mechanical Engineering",
+        duration: "September 2018 - December 2022",
+        subtitle: "Cal Poly San Luis Obispo",
+        details: ["Concentration in Mechatronics",
+                  "Minor in Computer Science",  
+                  "GPA: 3.45"],
+        tags: [ 
+        "Mechatronics", 
+        "Robotics", 
+        "Mechanical Control Systems", 
+        "Data Structures",
+        "Artificial Intelligence"
+    ],
+        icon: "graduation-cap",
+    },
+];
+
 export const skills = [
     {
         title: "Languages",
@@ -228,40 +264,6 @@ export const experience = [
     },
 ];
 
-export const education = [
-    {
-        title: "M.S. in Mechanical Engineering",
-        duration: "Jan 2022 - May 2024",
-        subtitle: "Northern Illinois University",
-        details: ["Thesis: Magnetometer-less Estimation of a Mobile Robot using Cascaded Kalman Filters",
-            "Focus in Robotics, Dynamics, and Controls",
-            "Summa Cum Laude, 4.00 GPA"],
-        tags: [
-            "Advanced Computing in Mechanical Engineering",
-            "Control Systems II",
-            "Finite Element Methods",
-            "Robot Dynamics and Control",
-            "Robot Vision Control",
-            "Stochastic Estimation Control"
-        ],
-        icon: "university",
-    },
-    {
-        title: "B.S. in Mechatronics Engineering",
-        duration: "August 2019 - May 2023",
-        subtitle: "Northern Illinois University",
-        details: ["Minor in Electrical Engineering",
-                  "Summa Cum Laude, 3.93 GPA"],
-        tags: [ 
-        "Control Systems", 
-        "Design of Mechatronics Systems", 
-        "Design of Robot Manipulators", 
-        "Human Machine Interaction", 
-        "Machine Learning for Mechatronics",
-    ],
-        icon: "graduation-cap",
-    },
-];
 
 export const footer = [
     {
