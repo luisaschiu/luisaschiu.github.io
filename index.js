@@ -443,11 +443,12 @@ import { URLs } from './user-data/urls.js';
   }
   
   populateBio(bio, "bio");
+  populateExp_Edu(education, "education");
   
   // populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
-  fetchGitConnectedData(gitConnected);
+  // fetchBlogsFromMedium(medium);
+  // fetchGitConnectedData(gitConnected);
   
   populateProjects(roboticsProjects, "robotics-projects");
   populateProjects(automationProjects, "automation-projects");
@@ -455,7 +456,7 @@ import { URLs } from './user-data/urls.js';
   populateProjects(hapticsProjects, "haptics-projects");
 
   populateExp_Edu(experience, "experience");
-  populateExp_Edu(education, "education");
+
   
   populateLinks(footer, "footer");
   
