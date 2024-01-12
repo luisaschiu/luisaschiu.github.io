@@ -2,7 +2,7 @@ export const bio = [
     `Hello, welcome to my portfolio! My name is Luisa Chiu. I am currently pursuing a Master's Degree in Mechanical Engineering at Cal Poly San Luis Obispo. In my undergraduate studies, I
     majored in Mechanical Engineering with a concentration in Mechatronics and completed a minor in Computer Science.` 
     `During my time at Cal Poly, I gained experience in designing, manufacturing, and testing mechanical systems by developing software 
-    for microcontrollers to interact with actuators, sensors, and more. Through my school and work experiences, I developed knowledge and skills pertaining to:
+    for microcontrollers to interact with actuators, sensors, and more. Through my school and work experiences, I developed knowledge and skills pertaining but not limited to:
     robotics kinematics and dynamics, open and closed-loop control systems, 3D CAD design, 3D printing, and PCB design.`
     
     `Outside of school, I like to be active by playing volleyball and flag football. I also enjoy baking sweets and cooking delicious food
