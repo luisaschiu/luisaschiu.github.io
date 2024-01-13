@@ -90,7 +90,7 @@ export const projects = {
                 it to the real-life model. Additionally, we designed and developed a task diagram and finite state machine to \
                 organize the cooperative multitasking structure of the program.",
             preview: "https://luisaschiu.github.io/",
-            techStack: ["Python", "MATLAB", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
+            techStack: ["Python", "MATLAB", "Simulink"],
         },
     ],
     automationProjects: [ // automation
