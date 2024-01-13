@@ -32,15 +32,15 @@ export const education = [
         duration: "September 2018 - December 2022",
         subtitle: "Cal Poly San Luis Obispo",
         details: ["Concentration in Mechatronics",
-                  "Minor in Computer Science",  
-                  "GPA: 3.45"],
-        tags: [ 
-        "Mechatronics", 
-        "Robotics: Fundamentals and Applications", 
-        "Mechanical Control Systems", 
-        "Data Structures",
-        "Artificial Intelligence"
-    ],
+            "Minor in Computer Science",
+            "GPA: 3.45"],
+        tags: [
+            "Mechatronics",
+            "Robotics: Fundamentals and Applications",
+            "Mechanical Control Systems",
+            "Data Structures",
+            "Artificial Intelligence"
+        ],
         icon: "graduation-cap",
     },
 ];
@@ -84,9 +84,13 @@ export const projects = {
             projectName: "Ball Balancing Platform",
             image: "images/ball_balancing.png",
             summary:
-                "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
-            techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
+                "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
+                an IMU, and a resistive touch panel to balance a ball on a platform. We simulated closed-loop control of \
+                motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before applying \
+                it to the real-life model. Additionally, we designed and developed a task diagram and finite state machine to \
+                organize the cooperative multitasking structure of the program.",
+            preview: "https://luisaschiu.github.io/",
+            techStack: ["Python", "MATLAB", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
         },
     ],
     automationProjects: [ // automation
@@ -158,23 +162,23 @@ export const projects = {
         },
     ],
     hapticsProjects: [ // haptics
-    {
-        projectName: "Path Finder: Haptic Feedback Vest for the Visually Impaired",
-        image: "images/pathfinder.png",
-        summary:
-            "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
-        preview: "https://docs.google.com/presentation/d/1ahmOeAyiJUFVkCDCQDMypHZjgy4WtvFkutT9CtxcB3k/edit",
-        techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
-    },
-    {
-        projectName: "Signal Synthesis for High Frequency Tactile Feedback",
-        image: "images/lpc.png",
-        summary:
-            "Programmed a voice-coil motor using PCA and LPC to create a synthetic signal to relay surface contact haptic feedback.",
-        preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
-        techStack: ["Python", "C", "LPC", "PCA"],
-    },
-],
+        {
+            projectName: "Path Finder: Haptic Feedback Vest for the Visually Impaired",
+            image: "images/pathfinder.png",
+            summary:
+                "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
+            preview: "https://docs.google.com/presentation/d/1ahmOeAyiJUFVkCDCQDMypHZjgy4WtvFkutT9CtxcB3k/edit",
+            techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
+        },
+        {
+            projectName: "Signal Synthesis for High Frequency Tactile Feedback",
+            image: "images/lpc.png",
+            summary:
+                "Programmed a voice-coil motor using PCA and LPC to create a synthetic signal to relay surface contact haptic feedback.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            techStack: ["Python", "C", "LPC", "PCA"],
+        },
+    ],
 };
 
 export const experience = [
@@ -183,7 +187,7 @@ export const experience = [
         duration: "October 2021 - Present",
         subtitle: "Research and Teaching Assistant",
         details: [`Worked on control and estimation problems for navigation and manipulation of autonomous robotic systems`,
-                  `Led lab sessions for introductory engineering courses including Computer Engineering, Engineering Dynamics, Dynamic Systems and Control, and Mechanical Vibrations`],
+            `Led lab sessions for introductory engineering courses including Computer Engineering, Engineering Dynamics, Dynamic Systems and Control, and Mechanical Vibrations`],
         tags: ["Teaching", "Robot Development", "State Estimation and Control", "Computer Vision", "Reinforcement Learning"],
         icon: "university",
     },
@@ -192,9 +196,9 @@ export const experience = [
         duration: "May 2023 - August 2023",
         subtitle: "Embedded Systems Engineering Intern",
         details: [`Participated in full stack development of encryption and decryption methods for Yaskawa's MPi controllers`,
-                  `Created automated test cases for major firmware and hardware releases`, 
-                  `Developed motion planning functions for manipulators`],
-        tags: ["Cyber Security", "Full-Stack Development","Automated Testing", "Manual Testing", "Motion Planning"],
+            `Created automated test cases for major firmware and hardware releases`,
+            `Developed motion planning functions for manipulators`],
+        tags: ["Cyber Security", "Full-Stack Development", "Automated Testing", "Manual Testing", "Motion Planning"],
         icon: "microchip",
     },
     {
