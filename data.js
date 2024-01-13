@@ -79,10 +79,10 @@ export const skills = [
 ];
 
 export const projects = {
-    ballBalancing: [ // robotics
+    ballBalancing: [
         {
-            projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/AlgoBD.png",
+            projectName: "Ball Balancing Platform",
+            image: "images/ball_balancing.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
