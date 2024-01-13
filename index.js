@@ -452,8 +452,8 @@ import { URLs } from './user-data/urls.js';
   
   populateProjects(ballBalancing, "ball-balancing");
   populateProjects(penPlotter, "pen-plotter");
-  populateProjects(simulationProjects, "simulation-projects");
-  populateProjects(hapticsProjects, "haptics-projects");
+  // populateProjects(simulationProjects, "simulation-projects");
+  // populateProjects(hapticsProjects, "haptics-projects");
 
   populateExp_Edu(experience, "experience");
 
