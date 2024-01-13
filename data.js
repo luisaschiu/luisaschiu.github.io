@@ -96,7 +96,7 @@ export const projects = {
     penPlotter: [
         {
             projectName: "Dual-Axis Pen Plotter",
-            // image: "images/ATTS.png",
+            image: "images/ATTS.png",
             summary:
                 "Insert info here",
             preview: "https://luisaschiu.github.io/", // link video or presentation
@@ -107,23 +107,22 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Northern Illinois Univeresity | ARM and Omron Lab",
-        duration: "October 2021 - Present",
-        subtitle: "Research and Teaching Assistant",
-        details: [`Worked on control and estimation problems for navigation and manipulation of autonomous robotic systems`,
-            `Led lab sessions for introductory engineering courses including Computer Engineering, Engineering Dynamics, Dynamic Systems and Control, and Mechanical Vibrations`],
-        tags: ["Teaching", "Robot Development", "State Estimation and Control", "Computer Vision", "Reinforcement Learning"],
-        icon: "university",
+        title: "Yaskawa America Inc. - Motion and Drives",
+        duration: "July 2023 - September 2023",
+        subtitle: "Applications Engineering Intern",
+        details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation`,
+            `Tested function blocks by developing a path calculation function for a pick and place robot application`],
+        tags: ["Robotics", "Interpolation"],
+        icon: "microchip",
     },
     {
-        title: "Yaskawa America Inc. - Motion and Drives",
-        duration: "May 2023 - August 2023",
-        subtitle: "Embedded Systems Engineering Intern",
-        details: [`Participated in full stack development of encryption and decryption methods for Yaskawa's MPi controllers`,
-            `Created automated test cases for major firmware and hardware releases`,
-            `Developed motion planning functions for manipulators`],
+        title: "Cal Poly SLO Mechanical Engineering Department",
+        duration: "September 2020 - December 2022",
+        subtitle: "Instructional Student Assistant",
+        details: [`Evaluated homework assignments for over 100 students for ME 236: Measurement and Data Analysis`,
+            `Coordinated with instructor to improve teaching and incorporate feedback on student performance`],
         tags: ["Cyber Security", "Full-Stack Development", "Automated Testing", "Manual Testing", "Motion Planning"],
-        icon: "microchip",
+        icon: "university",
     },
     {
         title: "Argonne National Laboratory",
