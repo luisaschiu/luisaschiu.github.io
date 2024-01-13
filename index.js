@@ -155,12 +155,12 @@ import { URLs } from './user-data/urls.js';
     img.className = "img-fluid";
   
     let divResumeContentLeft = document.createElement("div");
-    divResumeContentLeft.className = "resume-content";
+    divResumeContentLeft.className = "text-center";
     divResumeContentLeft.id = "left-div";
     divResumeContentLeft.append(img);
   
     let divResumeContentRight = document.createElement("div");
-    divResumeContentRight.className = "resume-content";
+    divResumeContentRight.className = "text-center";
     divResumeContentRight.id = "right-div";
   
     let p = document.createElement("p");
