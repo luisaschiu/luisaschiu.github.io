@@ -124,22 +124,22 @@ export const experience = [
         tags: ["Cyber Security", "Full-Stack Development", "Automated Testing", "Manual Testing", "Motion Planning"],
         icon: "university",
     },
-    {
-        title: "Argonne National Laboratory",
-        duration: "May 2022 - January 2023",
-        subtitle: "Robotics Research Assistant",
-        details: ["Developed a haptic telerobotic system using a Baxter Robot, Phantom Omni stylus, and multiple different sensors and actuators to provide users an intuitive platform to manipulate objects in a virtual environment"],
-        tags: ["Haptics", "Teleoperation", "Manipulation", "Human Robot Interaction", "Virtual Reality"],
-        icon: "code",
-    },
-    {
-        title: "PBC Linear: Applied Cobotics",
-        duration: "May 2021 - August 2022",
-        subtitle: "Robotics Engineering Intern",
-        details: ["Increased productivity by participating in the R&D of automated robotic workcells, along with new automated quality assurance systems, a mechatronic Smart Cart, and an autonomous mobile manipulator for pick and place applications."],
-        tags: ["Automation", "Control Systems", "Design and Fabrication"],
-        icon: "gears",
-    },
+    // {
+    //     title: "Argonne National Laboratory",
+    //     duration: "May 2022 - January 2023",
+    //     subtitle: "Robotics Research Assistant",
+    //     details: ["Developed a haptic telerobotic system using a Baxter Robot, Phantom Omni stylus, and multiple different sensors and actuators to provide users an intuitive platform to manipulate objects in a virtual environment"],
+    //     tags: ["Haptics", "Teleoperation", "Manipulation", "Human Robot Interaction", "Virtual Reality"],
+    //     icon: "code",
+    // },
+    // {
+    //     title: "PBC Linear: Applied Cobotics",
+    //     duration: "May 2021 - August 2022",
+    //     subtitle: "Robotics Engineering Intern",
+    //     details: ["Increased productivity by participating in the R&D of automated robotic workcells, along with new automated quality assurance systems, a mechatronic Smart Cart, and an autonomous mobile manipulator for pick and place applications."],
+    //     tags: ["Automation", "Control Systems", "Design and Fabrication"],
+    //     icon: "gears",
+    // },
 ];
 
 
