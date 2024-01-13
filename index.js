@@ -9,7 +9,7 @@ import {
 
 import { URLs } from './user-data/urls.js';
   
-  const { roboticsProjects, automationProjects, simulationProjects, hapticsProjects } =
+  const { ballBalancing, automationProjects, simulationProjects, hapticsProjects } =
     projects;
   const { medium, gitConnected } = URLs;
   
@@ -450,7 +450,7 @@ import { URLs } from './user-data/urls.js';
   // fetchBlogsFromMedium(medium);
   // fetchGitConnectedData(gitConnected);
   
-  populateProjects(roboticsProjects, "robotics-projects");
+  populateProjects(ballBalancing, "ball-balancing");
   populateProjects(automationProjects, "automation-projects");
   populateProjects(simulationProjects, "simulation-projects");
   populateProjects(hapticsProjects, "haptics-projects");
