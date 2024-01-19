@@ -152,7 +152,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #f9bf3f;
+		background-color: #c3edba;
 		height: auto;
 	}
 	.resume-content img {
@@ -519,7 +519,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color: #f9bf3f;
+	background-color:#c3edba;
 	z-index: 999;
 	position: fixed;
 }
@@ -2006,7 +2006,7 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
-	background: #f9bf3f;
+	background: #c3edba;
 	color: #000;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
