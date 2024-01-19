@@ -116,16 +116,13 @@ export const experience = [
                   `Developed function blocks for conversion between Euler Angles and Quaternions to prevent gimbal lock and singularities for future robotic applications`,
                   `Tested function blocks by creating test cases using MATLAB and MotionWorksIEC and running a demonstration on Yaskawa's GP8 6-DOF robot arm`,
                   `Familiarized myself with the GP8 robot through training material and interacted with Yaskawa's YRC1000 controller and robot pendant`,
-                  `For the demonstration, I developed a path \
-        calculation function for a pick and place robot application and created a Sequential Function \
-        Chart(SFC) program that showcased the usage of the interpolation function block. I also \
-        manufactured an end effector attachment for the GP8 robot to visually inspect \
-        the interpolation function block application. Lastly, I wrote \
-        functional requirements and documented the function blocks for future use.`,
-        `In addition to creating function blocks, I audited code by taking a deeper dive into existing \
-        function block code and testing for expected results. I documented differences in function blocks \
-        between remote and local groups and indicated whether some function block inputs or features \
-        were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
+                  `Developed a path calculation function for a pick and place robot application and created a Sequential Function Chart(SFC) program \
+                  to showcase and visually test the usage of the interpolation function block`,
+                  `Manufactured an end effector attachment for the GP8 robot to visually inspect the developed function block application`,
+                  `Wrote functional requirements and documented the developed function blocks for future use.`,
+                  `Audited code by diving into existing function block code and testing for expected results`,
+                  `Documented differences in function blocks between remote and local groups, indicating whether some function block inputs or features \
+                  were supported or not`],
         // details: [`During my internship, I developed function blocks for interpolation based on path percentage using \
         //             SLERP and linear interpolation. For the orientation interpolation, I developed function blocks \
         //             that converted between Euler Angles and Quaternions to prevent gimbal lock and singularities for \
