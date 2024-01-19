@@ -138,7 +138,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #f9bf3f;
+	background-color: #f9bf3fbd;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -902,7 +902,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-	background: #f9bf3f;
+	background: #f9bf3fbd;
 	color: #000;
 	padding: 1.5em;
 	margin-left: 60px;
@@ -2006,7 +2006,7 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
-	background: #f9bf3f;
+	background: #f9bf3fbd;
 	color: #000;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -2067,7 +2067,7 @@ ul {
 
 .submenu {
 	display: none;
-	background: #f9bf3f;
+	background: #f9bf3fbd;
 	font-size: 14px;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -2174,7 +2174,7 @@ span {
 }
 
 :root {
-	--footer-bg: #f9bf3f;
+	--footer-bg: #f9bf3fbd;
 	--color: #000;
 	--color-smooth: #000;
 	--input-border: #3a456a;
