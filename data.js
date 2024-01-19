@@ -33,7 +33,7 @@ export const education = [
         subtitle: "Cal Poly San Luis Obispo",
         details: ["Concentration in Mechatronics",
             "Minor in Computer Science",
-            "GPA: 3.45"],
+            "GPA: 3.48"],
         tags: [
             "Mechatronics",
             "Robotics: Fundamentals and Applications",
@@ -86,7 +86,7 @@ export const projects = {
             summary:
                 "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
                 an IMU, and a resistive touch panel to balance a ball on a platform. We simulated closed-loop control of \
-                motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before applying \
+                DC motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before applying \
                 it to the real-life model. Additionally, we designed and developed a task diagram and finite state machine to \
                 organize the cooperative multitasking structure of the program.",
             preview: "https://luisaschiu.github.io/",
@@ -108,38 +108,58 @@ export const projects = {
 export const experience = [
     {
         title: "Yaskawa America Inc. - Motion and Drives",
-        duration: "July 2023 - September 2023",
+        duration: "June 2023 - September 2023",
         subtitle: "Applications Engineering Intern",
-        details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation`,
-            `Tested function blocks by developing a path calculation function for a pick and place robot application`],
-        tags: ["Robotics", "Interpolation"],
+        details: [`During my internship, I developed function blocks for interpolation based on path percentage using \
+                    SLERP and linear interpolation. For the orientation interpolation, I developed function blocks \
+                    that converted between Euler Angles and Quaternions to prevent gimbal lock and singularities for \
+                    future robotic applications. For the position interpolation, I designed the function block to \
+                    apply linear interpolation. I tested my code by creating test cases using MATLAB and \
+                    MotionWorksIEC and ran a demonstration on Yaskawa's GP8 6-DOF robot arm. To familiarize myself \
+                    with the GP8 robot, I underwent training and interacted with Yaskawa's YRC1000 controller, \
+                    along with its corresponding robot pendant. For the demonstration, I developed a path \
+                    calculation function for a pick and place robot application and created a Sequential Function \
+                    Chart(SFC) program that showcased the usage of the interpolation function block. I also \
+                    manufactured an end effector attachment for the GP8 robot to visually inspect \
+                    the interpolation function block application. Lastly, I wrote \
+                    functional requirements and documented the function blocks for future use.`,
+                    `In addition to creating function blocks, I audited code by taking a deeper dive into existing \
+                    function block code and testing for expected results. I documented differences in function blocks \
+                    between remote and local groups and indicated whether some function block inputs or features \
+                    were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
+        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing"],
         icon: "microchip",
+    },
+    {
+        title: "Yaskawa America Inc. - Motion and Drives",
+        duration: "June 2022 - December 2022",
+        subtitle: "Applications Engineering Intern",
+        details: [`At Yaskawa, I programmed PLC's (Programmable Logic Controllers) using MotionWorksIEC to \
+                   develop over 200 test cases for multiple existing function blocks in preparation for a new \
+                   controller release. I ran the test cases for each function block to find inconsistencies \
+                   with expected values and documented them. I also assembled a test stand for a controller \
+                   prototype using motors, servo drivers, other electronic components, in addition to \
+                   assembling the circuitry for the entire assembly.`],
+        tags: ["PLCs", "Manufacturing"],
+        icon: "code",
     },
     {
         title: "Cal Poly SLO Mechanical Engineering Department",
         duration: "September 2020 - December 2022",
         subtitle: "Instructional Student Assistant",
-        details: [`Evaluated homework assignments for over 100 students for ME 236: Measurement and Data Analysis`,
-            `Coordinated with instructor to improve teaching and incorporate feedback on student performance`],
-        tags: ["Cyber Security", "Full-Stack Development", "Automated Testing", "Manual Testing", "Motion Planning"],
+        details: [`I evaluated homework assignments for over 100 students for ME 236: Measurement and Data Analysis. \
+                   I also coordinated with instructor to improve teaching and incorporate feedback on student performance.`],
+        tags: ["Grading"],
         icon: "university",
     },
-    // {
-    //     title: "Argonne National Laboratory",
-    //     duration: "May 2022 - January 2023",
-    //     subtitle: "Robotics Research Assistant",
-    //     details: ["Developed a haptic telerobotic system using a Baxter Robot, Phantom Omni stylus, and multiple different sensors and actuators to provide users an intuitive platform to manipulate objects in a virtual environment"],
-    //     tags: ["Haptics", "Teleoperation", "Manipulation", "Human Robot Interaction", "Virtual Reality"],
-    //     icon: "code",
-    // },
-    // {
-    //     title: "PBC Linear: Applied Cobotics",
-    //     duration: "May 2021 - August 2022",
-    //     subtitle: "Robotics Engineering Intern",
-    //     details: ["Increased productivity by participating in the R&D of automated robotic workcells, along with new automated quality assurance systems, a mechatronic Smart Cart, and an autonomous mobile manipulator for pick and place applications."],
-    //     tags: ["Automation", "Control Systems", "Design and Fabrication"],
-    //     icon: "gears",
-    // },
+    {
+        title: "",
+        duration: "May 2021 - August 2022",
+        subtitle: "Robotics Engineering Intern",
+        details: ["Increased productivity by participating in the R&D of automated robotic workcells, along with new automated quality assurance systems, a mechatronic Smart Cart, and an autonomous mobile manipulator for pick and place applications."],
+        tags: ["Automation", "Control Systems", "Design and Fabrication"],
+        icon: "gears",
+    },
 ];
 
 
