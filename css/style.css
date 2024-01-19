@@ -138,7 +138,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #c3edba;
+	background-color: #f9bf3f;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -152,7 +152,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #c3edba;
+		background-color: #f9bf3f;
 		height: auto;
 	}
 	.resume-content img {
@@ -519,7 +519,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color:#c3edba;
+	background-color:#f9bf3f;
 	z-index: 999;
 	position: fixed;
 }
@@ -902,7 +902,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-	background: #c3edba;
+	background: #f9bf3f;
 	color: #000;
 	padding: 1.5em;
 	margin-left: 60px;
@@ -2006,7 +2006,7 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
-	background: #c3edba;
+	background: #f9bf3f;
 	color: #000;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
