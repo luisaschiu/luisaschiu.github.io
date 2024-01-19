@@ -13,10 +13,10 @@ export const bio = [
 export const education = [
     {
         title: "M.S. in Mechanical Engineering",
-        duration: "Jan 2022 - June 2024",
+        duration: "January 2022 - June 2024",
         subtitle: "Cal Poly San Luis Obispo",
         details: ["Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
-            "GPA: 3.75"],
+            "GPA: 3.82"],
         tags: [
             "Autonomous Mobile Robotics",
             "Advanced Deep Learning",
@@ -39,7 +39,9 @@ export const education = [
             "Robotics: Fundamentals and Applications",
             "Mechanical Control Systems",
             "Data Structures",
-            "Artificial Intelligence"
+            "Artificial Intelligence",
+            "MATLAB",
+            "SolidWorks"
         ],
         icon: "graduation-cap",
     },
@@ -110,24 +112,38 @@ export const experience = [
         title: "Yaskawa America Inc. - Motion and Drives",
         duration: "June 2023 - September 2023",
         subtitle: "Applications Engineering Intern",
-        details: [`During my internship, I developed function blocks for interpolation based on path percentage using \
-                    SLERP and linear interpolation. For the orientation interpolation, I developed function blocks \
-                    that converted between Euler Angles and Quaternions to prevent gimbal lock and singularities for \
-                    future robotic applications. For the position interpolation, I designed the function block to \
-                    apply linear interpolation. I tested my code by creating test cases using MATLAB and \
-                    MotionWorksIEC and ran a demonstration on Yaskawa's GP8 6-DOF robot arm. To familiarize myself \
-                    with the GP8 robot, I underwent training and interacted with Yaskawa's YRC1000 controller, \
-                    along with its corresponding robot pendant. For the demonstration, I developed a path \
-                    calculation function for a pick and place robot application and created a Sequential Function \
-                    Chart(SFC) program that showcased the usage of the interpolation function block. I also \
-                    manufactured an end effector attachment for the GP8 robot to visually inspect \
-                    the interpolation function block application. Lastly, I wrote \
-                    functional requirements and documented the function blocks for future use.`,
-                    `In addition to creating function blocks, I audited code by taking a deeper dive into existing \
-                    function block code and testing for expected results. I documented differences in function blocks \
-                    between remote and local groups and indicated whether some function block inputs or features \
-                    were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
-        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing"],
+        details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation`,
+                  `Developed function blocks for conversion between Euler Angles and Quaternions to prevent gimbal lock and singularities for future robotic applications`,
+                  `Tested function blocks by creating test cases using MATLAB and MotionWorksIEC and running a demonstration on Yaskawa's GP8 6-DOF robot arm`,
+                  `Familiarized myself with the GP8 robot through training material and interacted with Yaskawa's YRC1000 controller and robot pendant`,
+                  `For the demonstration, I developed a path \
+        calculation function for a pick and place robot application and created a Sequential Function \
+        Chart(SFC) program that showcased the usage of the interpolation function block. I also \
+        manufactured an end effector attachment for the GP8 robot to visually inspect \
+        the interpolation function block application. Lastly, I wrote \
+        functional requirements and documented the function blocks for future use.`,
+        `In addition to creating function blocks, I audited code by taking a deeper dive into existing \
+        function block code and testing for expected results. I documented differences in function blocks \
+        between remote and local groups and indicated whether some function block inputs or features \
+        were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
+        // details: [`During my internship, I developed function blocks for interpolation based on path percentage using \
+        //             SLERP and linear interpolation. For the orientation interpolation, I developed function blocks \
+        //             that converted between Euler Angles and Quaternions to prevent gimbal lock and singularities for \
+        //             future robotic applications. For the position interpolation, I designed the function block to \
+        //             apply linear interpolation. I tested my code by creating test cases using MATLAB and \
+        //             MotionWorksIEC and ran a demonstration on Yaskawa's GP8 6-DOF robot arm. To familiarize myself \
+        //             with the GP8 robot, I underwent training and interacted with Yaskawa's YRC1000 controller, \
+        //             along with its corresponding robot pendant. For the demonstration, I developed a path \
+        //             calculation function for a pick and place robot application and created a Sequential Function \
+        //             Chart(SFC) program that showcased the usage of the interpolation function block. I also \
+        //             manufactured an end effector attachment for the GP8 robot to visually inspect \
+        //             the interpolation function block application. Lastly, I wrote \
+        //             functional requirements and documented the function blocks for future use.`,
+        //             `In addition to creating function blocks, I audited code by taking a deeper dive into existing \
+        //             function block code and testing for expected results. I documented differences in function blocks \
+        //             between remote and local groups and indicated whether some function block inputs or features \
+        //             were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
+        // tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing"],
         icon: "microchip",
     },
     {
@@ -138,8 +154,7 @@ export const experience = [
                    develop over 200 test cases for multiple existing function blocks in preparation for a new \
                    controller release. I ran the test cases for each function block to find inconsistencies \
                    with expected values and documented them. I also assembled a test stand for a controller \
-                   prototype using motors, servo drivers, other electronic components, in addition to \
-                   assembling the circuitry for the entire assembly.`],
+                   prototype using motors, servo drivers, and other electronic components.`],
         tags: ["PLCs", "Manufacturing"],
         icon: "code",
     },
