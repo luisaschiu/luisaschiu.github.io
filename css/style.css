@@ -2082,7 +2082,7 @@ ul {
 }
 
 .submenu li:hover {
-	background: rgba(255, 255, 0, 0.705);
+	background: rgba(132, 186, 147, 0.705);
 	box-shadow: -1px 1px 51px -20px rgba(0,0,0,1);
 	border-radius: 5px;
 	color: #fff;
