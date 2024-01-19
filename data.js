@@ -143,7 +143,7 @@ export const experience = [
         //             function block code and testing for expected results. I documented differences in function blocks \
         //             between remote and local groups and indicated whether some function block inputs or features \
         //             were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
-        // tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing"],
+        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing"],
         icon: "microchip",
     },
     {
