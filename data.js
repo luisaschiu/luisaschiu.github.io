@@ -155,7 +155,7 @@ export const experience = [
     {
         title: "",
         duration: "May 2021 - August 2022",
-        subtitle: "Robotics Engineering Intern",
+        subtitle: "San Francisco Public Utilities Commission",
         details: ["Increased productivity by participating in the R&D of automated robotic workcells, along with new automated quality assurance systems, a mechatronic Smart Cart, and an autonomous mobile manipulator for pick and place applications."],
         tags: ["Automation", "Control Systems", "Design and Fabrication"],
         icon: "gears",
