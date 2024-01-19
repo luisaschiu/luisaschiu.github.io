@@ -195,10 +195,10 @@ export const footer = [
                 text: "Dark Mode",
                 func: "enableDarkMode()",
             },
-            {
-                text: "Resume",
-                link: "https://drive.google.com/file/d/1s1YKa4OGqJSBwDMW4SxOdVAGMJN9Hroj/view?usp=sharing"
-            },
+            // {
+            //     text: "Resume",
+            //     link: "https://drive.google.com/file/d/1s1YKa4OGqJSBwDMW4SxOdVAGMJN9Hroj/view?usp=sharing"
+            // },
         ],
     },
     {
