@@ -2099,8 +2099,8 @@ ul {
 .submenu h2 {
 	font-size: 13px;
 	/* font-weight: 300; */
-	color: #374054;
-	margin: 0 0 15px 5px;
+	color: #000000;
+	margin: 0 0 10px 5px;
 }
 
 /* .submenu li:hover {
