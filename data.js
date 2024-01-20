@@ -150,7 +150,7 @@ export const experience = [
         title: "San Francisco Public Utilities Commission",
         duration: "Summer 2018, 2019, 2021",
         subtitle: "Asset Management Intern, Project Management Intern, Civil Engineering Intern",
-        details: [""],
+        details: ["Insert info here"],
         tags: ["Project Management"],
         icon: "gears",
     },
