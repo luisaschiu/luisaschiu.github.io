@@ -2089,12 +2089,12 @@ ul {
 	padding: 10px;
 }
 
-.submenu li:hover {
+/* .submenu li:hover {
 	background: #f9bf3fbd;
 	box-shadow: -1px 1px 51px -20px rgba(0,0,0,1);
 	border-radius: 5px;
 	color: #fff;
-}
+} */
 
 .submenu a {
 	display: block;
