@@ -2092,16 +2092,17 @@ ul {
 
 .submenu li {
 	/* border-bottom: 1px solid #000; */
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 10px;
 	padding: 10px;
 }
 .submenu h2 {
-	font-size: 13px;
+	font-size: 14px;
 	/* font-weight: 300; */
 	color: #000000;
-	margin: 0 0 0px 10px;
+	margin: 0 0 10px 10px;
 	padding-left: 15px;
+	padding-bottom: 10px;
 }
 
 /* .submenu li:hover {
