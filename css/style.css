@@ -2096,6 +2096,12 @@ ul {
 	margin-bottom: 10px;
 	padding: 10px;
 }
+.submenu h2 {
+	font-size: 13px;
+	/* font-weight: 300; */
+	color: #374054;
+	margin: 0 0 15px 5px;
+}
 
 /* .submenu li:hover {
 	background: #f9bf3fbd;
