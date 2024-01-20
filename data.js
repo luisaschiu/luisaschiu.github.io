@@ -131,7 +131,7 @@ export const experience = [
         duration: "June 2022 - December 2022",
         subtitle: "Applications Engineering Intern",
         details: [`Programmed PLC's (Programmable Logic Controllers) using MotionWorksIEC to \
-                   develop over 200 test cases for multiple existing function blocks in preparation for a new controller release`
+                   develop over 200 test cases for multiple existing function blocks in preparation for a new controller release`,
                    `Ran test cases for each function block to find and document inconsistencies against expected values`,
                    `Assembled a test stand and circuitry for a controller prototype using motors, servo drivers, and other electronic components`],
         tags: ["PLCs", "Manufacturing"],
