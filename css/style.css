@@ -2076,8 +2076,8 @@ ul {
 
 .submenu li {
 	/* border-bottom: 1px solid #000; */
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 10px;
 }
 
@@ -2115,8 +2115,8 @@ ul {
 
 .project-description {
 	font-size: 13px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	color: #000;
 }
 
