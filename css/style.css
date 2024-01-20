@@ -2100,7 +2100,7 @@ ul {
 	font-size: 13px;
 	/* font-weight: 300; */
 	color: #000000;
-	margin: 0 0 10px 5px;
+	margin: 0 0 5px 5px;
 }
 
 /* .submenu li:hover {
@@ -2156,7 +2156,7 @@ span {
 
 .col-image {
 	float: left;
-	width: 25%;
+	/* width: 25%; */
 	padding: 5px;
   }
   
