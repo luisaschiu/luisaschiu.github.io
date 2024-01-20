@@ -102,7 +102,7 @@ export const projects = {
             summary:
                 "Insert info here",
             preview: "https://luisaschiu.github.io/", // link video or presentation
-            techStack: ["Python", "3D Printing", "SolidWorks", "Actuation"], // TO-DO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "3D Printing", "SolidWorks", "Actuators"], // TODO: UPDATE WHEN YOU HAVE TIME
         },
     ],
 };
@@ -150,7 +150,9 @@ export const experience = [
         title: "San Francisco Public Utilities Commission",
         duration: "Summer 2018, 2019, 2021",
         subtitle: "Asset Management Intern, Project Management Intern, Civil Engineering Intern",
-        details: ["Insert info here"],
+        details: [`Assisted with Project Management Plans and Closeout Packages for Sewer System Improvement Program Projects`,
+                  `Assembled diagrams and vicinity maps indicating project locations and staging areas`,
+                  `Analyzed and inspected drafted layouts and as-builts of the SFPUC Calaveras Dam Replacement Project`],
         tags: ["Project Management"],
         icon: "gears",
     },
@@ -171,7 +173,7 @@ export const footer = [
         label: "Resources",
         data: [
             {
-                text: "Dark Mode",
+                text: "Light/Dark Mode",
                 func: "enableDarkMode()",
             },
             // {
