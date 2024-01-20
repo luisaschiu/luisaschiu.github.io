@@ -9,8 +9,8 @@ import {
 
 import { URLs } from './user-data/urls.js';
   
-  // const { ballBalancing, penPlotter} =
-  //   projects;
+  const { ballBalancing, penPlotter} =
+    projects;
   const { medium, gitConnected } = URLs;
   
   /**
@@ -192,7 +192,7 @@ import { URLs } from './user-data/urls.js';
   
     for (let i = 0; i < items.length; i++) {
       h4.innerHTML = items[i].projectName;
-      a.href = items[i].preview;
+      // a.href = items[i].preview;
   
       img.src = items[i].image;
   
