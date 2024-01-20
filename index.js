@@ -139,7 +139,7 @@ import { URLs } from './user-data/urls.js';
    *
    * @param {Array} items - An array of objects that contain project information.
    * @param {string} id - The id of the HTML element to which projects will be appended.
-   *
+   * @property {string} items[].duration - The duration of the timeline item.
    * @returns {void}
    */
   
@@ -194,6 +194,9 @@ import { URLs } from './user-data/urls.js';
       h4.innerHTML = items[i].projectName;
       // a.href = items[i].preview;
   
+      let spanh2 = document.createElement("span");
+      spanh2.innerHTML = items[i].duration;
+      
       img.src = items[i].image;
   
       p.innerHTML = items[i].summary;
@@ -221,7 +224,7 @@ import { URLs } from './user-data/urls.js';
    *
    * @param {Array} items - An array of objects, each representing a blog post
    * @param {string} id - The ID of the parent element where the list of posts will be appended
-   * @property {string} items[].duration - The duration of the timeline item.
+  
    *
    * @returns {undefined}
    */
@@ -239,9 +242,6 @@ import { URLs } from './user-data/urls.js';
       a.href = items[i].link;
       a.target = "_blank";
       a.append(h4);
-
-      let spanh2 = document.createElement("span");
-      spanh2.innerHTML = items[i].duration;
   
       const img = document.createElement("img");
       img.src = items[i].thumbnail;
