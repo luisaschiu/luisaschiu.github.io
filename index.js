@@ -195,6 +195,7 @@ import { URLs } from './user-data/urls.js';
       // a.href = items[i].preview;
   
       let spanh2 = document.createElement("span");
+      spanh2.className = "project-duration";
       spanh2.innerHTML = items[i].duration;
       
       img.src = items[i].image;
