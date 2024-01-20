@@ -221,6 +221,7 @@ import { URLs } from './user-data/urls.js';
    *
    * @param {Array} items - An array of objects, each representing a blog post
    * @param {string} id - The ID of the parent element where the list of posts will be appended
+   * @property {string} items[].duration - The duration of the timeline item.
    *
    * @returns {undefined}
    */
@@ -238,6 +239,9 @@ import { URLs } from './user-data/urls.js';
       a.href = items[i].link;
       a.target = "_blank";
       a.append(h4);
+
+      let spanh2 = document.createElement("span");
+      spanh2.innerHTML = items[i].duration;
   
       const img = document.createElement("img");
       img.src = items[i].thumbnail;
