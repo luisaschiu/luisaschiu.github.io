@@ -2100,7 +2100,8 @@ ul {
 	font-size: 13px;
 	/* font-weight: 300; */
 	color: #000000;
-	margin: 0 0 5px 5px;
+	margin: 0 0 5px 10px;
+	padding-left: 15px;
 }
 
 /* .submenu li:hover {
@@ -2167,7 +2168,8 @@ span {
 	display: table;
   }
 
-  @media screen and (max-width: 992px) {
+  /* @media screen and (max-width: 992px) { */
+@media screen and (max-width: 1200px) {
 	.col-image {
 		width: 100%;
 		padding: 25px;
