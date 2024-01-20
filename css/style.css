@@ -143,6 +143,11 @@ figure figcaption {
 	-o-transition: 0.5s;
 	transition: 0.5s;
 }
+
+#colorlib-aside h1 a {
+	color: black; /* Set the default text color for Luisa Chiu */
+}
+
 @media screen and (max-width: 768px) {
 	#colorlib-aside {
 		width: 300px;
