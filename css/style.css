@@ -43,7 +43,7 @@ body {
 }
 
 a {
-	color: #2c98f0;
+	color: #3c763d;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -250,7 +250,7 @@ figure figcaption {
 	bottom: 7px;
 	left: 0;
 	right: 0;
-	background-color: #2c98f0;
+	background-color: #3c763d;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	-moz-transform: scaleX(0);
