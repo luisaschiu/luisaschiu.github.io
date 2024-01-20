@@ -32,8 +32,8 @@ body {
 	line-height: 1.8;
 	color: black;
 }
-@media screen and (max-width: 992px) {
-/* @media screen and (max-width: 2000px) { */
+/* @media screen and (max-width: 992px) { */
+@media screen and (max-width: 2000px) {
 	body {
 		font-size: 16px;
 	}
