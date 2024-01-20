@@ -165,11 +165,6 @@ figure figcaption {
 	}
 }
 
-
-.dark-mode #colorlib-aside h1 a {
-	color: white; /* Set the text color for Luisa Chiu in dark mode */
-  }
-
 .resume-content img {
 	margin: 0 10px;
 	width: 100%;
@@ -197,6 +192,7 @@ figure figcaption {
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
 }
+
 #colorlib-aside .position {
 	display: block;
 	margin-bottom: 2em;
@@ -558,6 +554,7 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 0;
 }
 
+.colorlib-logo
 .colorlib-experience,
 .colorlib-skills,
 .colorlib-profile,
