@@ -125,6 +125,7 @@ import { URLs } from './user-data/urls.js';
       divProgressWrap.append(h3, divProgress);
   
       const divAnimateBox = getElement("div", "col-md-6 animate-box");
+      // const divAnimateBox = getElement("div", "col-md-12 animate-box");
       divAnimateBox.append(divProgressWrap);
   
       skillsTag.append(divAnimateBox);

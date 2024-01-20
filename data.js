@@ -109,7 +109,7 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Yaskawa America Inc. - Motion and Drives",
+        title: "Yaskawa America, Inc. - Drives and Motion Division",
         duration: "June 2023 - September 2023",
         subtitle: "Applications Engineering Intern",
         details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation`,
@@ -118,40 +118,22 @@ export const experience = [
                   `Familiarized myself with the GP8 robot through training material and interacted with Yaskawa's YRC1000 controller and robot pendant`,
                   `Developed a path calculation function for a pick and place robot application and created a Sequential Function Chart(SFC) program \
                   to showcase and visually test the usage of the interpolation function block`,
-                  `Manufactured an end effector attachment for the GP8 robot to visually inspect the developed function block application`,
-                  `Wrote functional requirements and documented the developed function blocks for future use.`,
+                  `Manufactured an end effector attachment for the GP8 robot to visually inspect developed function block application`,
+                  `Wrote functional requirements and documented the developed function blocks for future use`,
                   `Audited code by diving into existing function block code and testing for expected results`,
                   `Documented differences in function blocks between remote and local groups, indicating whether some function block inputs or features \
                   were supported or not`],
-        // details: [`During my internship, I developed function blocks for interpolation based on path percentage using \
-        //             SLERP and linear interpolation. For the orientation interpolation, I developed function blocks \
-        //             that converted between Euler Angles and Quaternions to prevent gimbal lock and singularities for \
-        //             future robotic applications. For the position interpolation, I designed the function block to \
-        //             apply linear interpolation. I tested my code by creating test cases using MATLAB and \
-        //             MotionWorksIEC and ran a demonstration on Yaskawa's GP8 6-DOF robot arm. To familiarize myself \
-        //             with the GP8 robot, I underwent training and interacted with Yaskawa's YRC1000 controller, \
-        //             along with its corresponding robot pendant. For the demonstration, I developed a path \
-        //             calculation function for a pick and place robot application and created a Sequential Function \
-        //             Chart(SFC) program that showcased the usage of the interpolation function block. I also \
-        //             manufactured an end effector attachment for the GP8 robot to visually inspect \
-        //             the interpolation function block application. Lastly, I wrote \
-        //             functional requirements and documented the function blocks for future use.`,
-        //             `In addition to creating function blocks, I audited code by taking a deeper dive into existing \
-        //             function block code and testing for expected results. I documented differences in function blocks \
-        //             between remote and local groups and indicated whether some function block inputs or features \
-        //             were supported or not. I also used the GP8 robot to test the remote group function blocks.`],
-        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing"],
+        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing", "Code Audit"],
         icon: "microchip",
     },
     {
-        title: "Yaskawa America Inc. - Motion and Drives",
+        title: "Yaskawa America, Inc. - Drives and Motion Division",
         duration: "June 2022 - December 2022",
         subtitle: "Applications Engineering Intern",
-        details: [`At Yaskawa, I programmed PLC's (Programmable Logic Controllers) using MotionWorksIEC to \
-                   develop over 200 test cases for multiple existing function blocks in preparation for a new \
-                   controller release. I ran the test cases for each function block to find inconsistencies \
-                   with expected values and documented them. I also assembled a test stand for a controller \
-                   prototype using motors, servo drivers, and other electronic components.`],
+        details: [`Programmed PLC's (Programmable Logic Controllers) using MotionWorksIEC to \
+                   develop over 200 test cases for multiple existing function blocks in preparation for a new controller release`
+                   `Ran test cases for each function block to find and document inconsistencies against expected values`,
+                   `Assembled a test stand and circuitry for a controller prototype using motors, servo drivers, and other electronic components`],
         tags: ["PLCs", "Manufacturing"],
         icon: "code",
     },
@@ -159,17 +141,17 @@ export const experience = [
         title: "Cal Poly SLO Mechanical Engineering Department",
         duration: "September 2020 - December 2022",
         subtitle: "Instructional Student Assistant",
-        details: [`I evaluated homework assignments for over 100 students for ME 236: Measurement and Data Analysis. \
-                   I also coordinated with instructor to improve teaching and incorporate feedback on student performance.`],
+        details: [`Evaluated homework assignments for over 100 students for ME 236: Measurement and Data Analysis`,
+                   `Coordinated with instructor to improve teaching and incorporate feedback on student performance`],
         tags: ["Grading"],
         icon: "university",
     },
     {
-        title: "",
-        duration: "May 2021 - August 2022",
-        subtitle: "San Francisco Public Utilities Commission",
-        details: ["Increased productivity by participating in the R&D of automated robotic workcells, along with new automated quality assurance systems, a mechatronic Smart Cart, and an autonomous mobile manipulator for pick and place applications."],
-        tags: ["Automation", "Control Systems", "Design and Fabrication"],
+        title: "San Francisco Public Utilities Commission",
+        duration: "Summer 2018, 2019, 2021",
+        subtitle: "Asset Management Intern, Project Management Intern, Civil Engineering Intern",
+        details: [""],
+        tags: ["Project Management"],
         icon: "gears",
     },
 ];
