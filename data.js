@@ -13,7 +13,7 @@ export const bio = [
 export const education = [
     {
         title: "M.S. in Mechanical Engineering",
-        duration: "January 2022 - June 2024",
+        
         subtitle: "Cal Poly San Luis Obispo",
         details: ["Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
             "GPA: 3.82"],
@@ -25,6 +25,7 @@ export const education = [
             "Mechanical Control System Design",
             "Computational Intelligence"
         ],
+        duration: "January 2022 - June 2024",
         icon: "university",
     },
     {
@@ -84,7 +85,7 @@ export const projects = {
     ballBalancing: [
         {
             projectName: "Ball Balancing Platform",
-            duration: "tester",
+            links: "testing",
             image: "images/ball_balancing.png",
             summary:
                 "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
@@ -99,7 +100,7 @@ export const projects = {
     penPlotter: [
         {
             projectName: "Dual-Axis Pen Plotter",
-            duration: "tester",
+            links: "tester",
             image: "images/ATTS.png",
             summary:
                 "Insert info here",

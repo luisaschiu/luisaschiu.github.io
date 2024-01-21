@@ -194,9 +194,9 @@ import { URLs } from './user-data/urls.js';
       h4.innerHTML = items[i].projectName;
       // a.href = items[i].preview;
   
-      let spanh2 = document.createElement("span");
-      spanh2.className = "project-duration"
-      spanh2.innerHTML = items[i].duration;
+      let link2 = document.createElement("span");
+      link2.className = "project-links"
+      link2.innerHTML = items[i].links;
       
       img.src = items[i].image;
   
@@ -209,9 +209,10 @@ import { URLs } from './user-data/urls.js';
         span.innerHTML = items[i].techStack[k];
         divSpan.append(span);
       }
-      projectdesign.append(spanh2);
+      
       projectdesign.append(li.cloneNode(true));
-  
+      projectdesign.append(link2);
+
       if (i != items.length - 1) {
         projectdesign.append(hr.cloneNode(true));
       }
