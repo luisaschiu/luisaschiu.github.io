@@ -240,12 +240,12 @@ import { URLs } from './user-data/urls.js';
       });
       nav.append(ul);
       span3.append(nav);
-      projectdesign.append(span3);
       
       // End testing project links
 
       projectdesign.append(li.cloneNode(true));
       projectdesign.append(link2);
+      projectdesign.append(span3);
 
       if (i != items.length - 1) {
         projectdesign.append(hr.cloneNode(true));

@@ -98,7 +98,7 @@ export const projects = {
             data: [
                 {
                     text: "Github Repo",
-                    link: "https://github.com/luisaschiu/ME_305",
+                    link: "https://github.com/luisaschiu/BallBalancingPlatform",
                 },
             ],
         },
@@ -115,7 +115,7 @@ export const projects = {
             data: [
                 {
                     text: "Github Repo",
-                    link: "https://github.com/luisaschiu/ME_405",
+                    link: "https://github.com/luisaschiu/Dual-AxisPenPlotter",
                 },
             ],
         },
