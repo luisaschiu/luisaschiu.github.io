@@ -112,7 +112,7 @@ export const projects = {
         {
             projectName: "Dual-Axis Pen Plotter",
             links: "Links:",
-            image: "images/ATTS.png",
+            image: "images/pen_plotter.jpg",
             summary:
                 "Insert info here",
             preview: "https://luisaschiu.github.io/", // link video or presentation
