@@ -84,6 +84,7 @@ export const projects = {
     ballBalancing: [
         {
             projectName: "Ball Balancing Platform",
+            duration: "tester",
             image: "images/ball_balancing.png",
             summary:
                 "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
@@ -98,6 +99,7 @@ export const projects = {
     penPlotter: [
         {
             projectName: "Dual-Axis Pen Plotter",
+            duration: "tester",
             image: "images/ATTS.png",
             summary:
                 "Insert info here",
