@@ -1,0 +1,26 @@
+var task__userinterface_8py =
+[
+    [ "task_userinterface.Task_User", "classtask__userinterface_1_1Task__User.html", "classtask__userinterface_1_1Task__User" ],
+    [ "S0_init", "task__userinterface_8py.html#a02cc75c2e04e2fed33e1b9ec04595ad9", null ],
+    [ "S10_print_enc_delta_1", "task__userinterface_8py.html#a1f355883d98fafc27a8dfd5ec196e763", null ],
+    [ "S11_print_enc_delta_2", "task__userinterface_8py.html#a2adeecd9d0707cd7f0075167e1da7e5e", null ],
+    [ "S12_enable", "task__userinterface_8py.html#a2794c15a9da1ace4b410399142fad31a", null ],
+    [ "S13_input_gain_1", "task__userinterface_8py.html#a21ae193bc5c770d3913d1d908832ef97", null ],
+    [ "S14_input_gain_2", "task__userinterface_8py.html#ad5d6d9ac397fa1b438e523438b713aa8", null ],
+    [ "S15_input_vel_1", "task__userinterface_8py.html#a301ab59dc0d73b196c93613b2a31303b", null ],
+    [ "S16_input_vel_2", "task__userinterface_8py.html#aeb5afea0753f9cbf046b56b0575f48c3", null ],
+    [ "S17_fault_occurs", "task__userinterface_8py.html#a8f93a7ba0b1f36f7ff996ff540a2a27d", null ],
+    [ "S18_fault_cleared", "task__userinterface_8py.html#a43a19ed9ed3d46ea60edc0dea36000cd", null ],
+    [ "S19_step_response_1", "task__userinterface_8py.html#abbd7ea0505486ec848d51924d879ea76", null ],
+    [ "S1_wait_for_char", "task__userinterface_8py.html#afe3e44dc6cbeded41e294d2492318db6", null ],
+    [ "S20_step_response_2", "task__userinterface_8py.html#a64d275c50aba26cf31206dbef06bffa4", null ],
+    [ "S21_step_print", "task__userinterface_8py.html#ad82facd6496c6e045ca4b73575257866", null ],
+    [ "S2_collect_data_1", "task__userinterface_8py.html#ae210aea9397b86d3f22b37912d1b2b42", null ],
+    [ "S3_collect_data_2", "task__userinterface_8py.html#a411824b3be01d87d1ecc6399e2166c12", null ],
+    [ "S4_print_data_1", "task__userinterface_8py.html#a57440397dea12879999e59dcccb5d8ec", null ],
+    [ "S5_print_data_2", "task__userinterface_8py.html#ad14b93966cd03b1fdbb237e0dd9b4ebb", null ],
+    [ "S6_zero_enc_1", "task__userinterface_8py.html#abb69ca3205797463eb1867e4584bd27a", null ],
+    [ "S7_zero_enc_2", "task__userinterface_8py.html#aba0bce4f097aa900c0ca5a6ddcd782b6", null ],
+    [ "S8_print_enc_pos_1", "task__userinterface_8py.html#aaba726a2efb0eb9ea35f06b491262056", null ],
+    [ "S9_print_enc_pos_2", "task__userinterface_8py.html#a6e89409f34f18248860cc97702f5f9c3", null ]
+];
