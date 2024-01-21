@@ -100,6 +100,10 @@ export const projects = {
                     text: "Github Repo",
                     link: "https://github.com/luisaschiu/BallBalancingPlatform",
                 },
+                {
+                    text: "Powerpoint Slides",
+                    link: "https://docs.google.com/presentation/d/1zU3avEw_QoErOw8UOeQKcBMYGLnliPxZZhomeFnZxes/edit#slide=id.p1",
+                }
             ],
         },
     ],

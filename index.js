@@ -220,7 +220,7 @@ import { URLs } from './user-data/urls.js';
       // span.append(p);
 
       let nav = document.createElement("nav");
-      nav.className = "project-click-links";
+      nav.className = "col-list";
 
       let ul = document.createElement("ul");
       items[i].data.forEach(function (data) {
