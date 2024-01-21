@@ -713,6 +713,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .project-image {
 	float: left;
+	width: 100px;
 }
 
 .project-card {
