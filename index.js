@@ -154,8 +154,8 @@ import { URLs } from './user-data/urls.js';
   
     let img = document.createElement("img");
     // img.className = "img-fluid";
-    img.style.width = "200px";
-    img.style.height = "200px";
+    img.style.width = "150px";
+    img.style.height = "150px";
     img.style.float = "left";
   
     let divResumeContentLeft = document.createElement("div");

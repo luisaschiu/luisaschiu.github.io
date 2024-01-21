@@ -717,7 +717,8 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project-card {
-	height: 250px;
+	height: auto;
+	/* height: 250px; */
 	/* height: 150px; */
 }
 
