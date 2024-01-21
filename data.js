@@ -112,6 +112,12 @@ export const projects = {
                 "Insert info here",
             preview: "https://luisaschiu.github.io/", // link video or presentation
             techStack: ["Python", "3D Printing", "SolidWorks", "Actuators"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [
+                {
+                    text: "TESTER LinkedIn",
+                    link: "https://www.linkedin.com/in/luisa-chiu",
+                },
+            ],
         },
     ],
 };
