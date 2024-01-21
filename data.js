@@ -104,7 +104,7 @@ export const projects = {
                 {
                     text: "Powerpoint Slides",
                     link: "https://docs.google.com/presentation/d/1zU3avEw_QoErOw8UOeQKcBMYGLnliPxZZhomeFnZxes/edit#slide=id.p1",
-                }
+                },
                 {
                     text: "Documentation and Reports",
                     link: "ME305_Portfolio/index.html",
