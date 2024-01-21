@@ -713,7 +713,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .project-image {
 	float: left;
-	width: 100px;
+	/* width: 100px; */
 }
 
 .project-card {
@@ -2158,10 +2158,10 @@ ul {
 	margin-bottom: 5px;
 	color: #000;
 }
-
+ 
 .img-fluid {
 	float: left;
-	width: 200px;
+	width: 50px;
 	/* width: 300px; */
 }
 
