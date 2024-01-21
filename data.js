@@ -116,7 +116,7 @@ export const projects = {
             summary:
                 "Insert info here",
             preview: "https://luisaschiu.github.io/", // link video or presentation
-            techStack: ["Python", "3D Printing", "SolidWorks", "Actuators"], // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "3D Printing", "SolidWorks", "Actuators", "Tolerancing"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Github Repo",

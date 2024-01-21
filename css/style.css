@@ -168,8 +168,8 @@ figure figcaption {
 .resume-content img {
 	margin: 0 10px;
 	width: 100%;
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 125px;
+	max-height: 125px;
 	height: auto;
 }
 #colorlib-aside .author-img {
