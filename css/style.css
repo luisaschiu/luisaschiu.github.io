@@ -722,6 +722,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .project-duration{
 	font-size: 14px;
+	font-weight: 300;
 	color: #000000;
 	margin: 0 0 10px 10px;
 	padding-left: 15px;
