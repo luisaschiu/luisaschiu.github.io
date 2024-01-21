@@ -212,7 +212,7 @@ import { URLs } from './user-data/urls.js';
       
       // Start of testing for project links
       let span = document.createElement("span");
-        span.className = "col";
+        span.className = "project-click-links";
   
       // let p = document.createElement("p");
       // p.className = "col-title";
