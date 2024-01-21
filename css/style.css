@@ -2161,8 +2161,8 @@ ul {
  
 .img-fluid {
 	float: left;
-	width: 10px;
-	/* width: 300px; */
+	/* width: 10px; */
+	width: 300px;
 }
 
 span {

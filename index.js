@@ -153,7 +153,9 @@ import { URLs } from './user-data/urls.js';
     a.target = "_blank";
   
     let img = document.createElement("img");
-    img.className = "img-fluid";
+    // img.className = "img-fluid";
+    img.style.width = "200px";
+    img.style.height = "200px";
   
     let divResumeContentLeft = document.createElement("div");
     divResumeContentLeft.className = "resume-content";
