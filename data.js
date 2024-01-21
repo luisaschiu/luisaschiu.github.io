@@ -95,6 +95,12 @@ export const projects = {
                 organize the cooperative multitasking structure of the program.",
             preview: "https://luisaschiu.github.io/",
             techStack: ["Python", "MATLAB", "Simulink"],
+            data: [
+                {
+                    text: "TESTER LinkedIn",
+                    link: "https://www.linkedin.com/in/luisa-chiu",
+                },
+            ],
         },
     ],
     penPlotter: [

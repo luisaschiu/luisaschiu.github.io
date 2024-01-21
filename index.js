@@ -210,6 +210,40 @@ import { URLs } from './user-data/urls.js';
         divSpan.append(span);
       }
       
+      // Start of testing for project links
+      let span = document.createElement("span");
+        span.className = "col";
+  
+      // let p = document.createElement("p");
+      // p.className = "col-title";
+      // p.innerHTML = item.label;
+      // span.append(p);
+
+      let nav = document.createElement("nav");
+      nav.className = "col-list";
+
+      let ul = document.createElement("ul");
+      items[i].data.forEach(function (data) {
+        let li = document.createElement("li");
+        let a = document.createElement("a");
+        if (data.link) {
+          a.href = data.link;
+          a.target = "_blank";
+        }
+        if (data.func) {
+          a.setAttribute("onclick", data.func);
+        }
+        a.innerHTML = data.text;
+
+        li.append(a);
+        ul.append(li);
+      });
+      nav.append(ul);
+      span.append(nav);
+      projectdesign.append(span);
+      
+      // End testing project links
+
       projectdesign.append(li.cloneNode(true));
       projectdesign.append(link2);
 
