@@ -211,8 +211,8 @@ import { URLs } from './user-data/urls.js';
       }
       
       // Start of testing for project links
-      let span = document.createElement("span");
-        span.className = "project-click-links";
+      let span3 = document.createElement("span");
+        span3.className = "col";
   
       // let p = document.createElement("p");
       // p.className = "col-title";
@@ -220,7 +220,7 @@ import { URLs } from './user-data/urls.js';
       // span.append(p);
 
       let nav = document.createElement("nav");
-      nav.className = "col-list";
+      nav.className = "project-click-links";
 
       let ul = document.createElement("ul");
       items[i].data.forEach(function (data) {
@@ -239,8 +239,8 @@ import { URLs } from './user-data/urls.js';
         ul.append(li);
       });
       nav.append(ul);
-      span.append(nav);
-      projectdesign.append(span);
+      span3.append(nav);
+      projectdesign.append(span3);
       
       // End testing project links
 
