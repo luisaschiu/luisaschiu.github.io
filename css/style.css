@@ -2098,7 +2098,7 @@ ul {
 	background: #ffe19e;
 	font-size: 14px;
 	padding-left: 0px;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
@@ -2114,6 +2114,7 @@ ul {
 	/* font-weight: 300; */
 	color: #000000;
 	margin: 0 0 10px 10px;
+	padding-top: 10px;
 	padding-left: 15px;
 	padding-bottom: 10px;
 }
