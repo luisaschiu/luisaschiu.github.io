@@ -85,8 +85,8 @@ export const projects = {
     ballBalancing: [
         {
             projectName: "Ball Balancing Platform",
-            links: "Links:",
-            image: "images/ball_balancing.png",
+            // timeline: "3 months (September 2021 - December 2021)",
+            image: "images/ball_balancing.jpg",
             summary:
                 "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
                 an IMU, and a resistive touch panel to balance a ball on a platform. We simulated closed-loop control of \
@@ -95,6 +95,7 @@ export const projects = {
                 organize the cooperative multitasking structure of the program.",
             preview: "https://luisaschiu.github.io/",
             techStack: ["Python", "MATLAB", "Simulink"],
+            links: "Links:",
             data: [
                 {
                     text: "Github Repo",
