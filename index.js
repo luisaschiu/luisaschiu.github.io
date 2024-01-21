@@ -139,7 +139,6 @@ import { URLs } from './user-data/urls.js';
    *
    * @param {Array} items - An array of objects that contain project information.
    * @param {string} id - The id of the HTML element to which projects will be appended.
-   * @property {string} items[].duration - The duration of the timeline item.
    * @returns {void}
    */
   
@@ -193,10 +192,7 @@ import { URLs } from './user-data/urls.js';
     for (let i = 0; i < items.length; i++) {
       h4.innerHTML = items[i].projectName;
       // a.href = items[i].preview;
-  
-      let spanh2 = document.createElement("span");
-      spanh2.className = "project-duration";
-      spanh2.innerHTML = items[i].duration;
+
       
       img.src = items[i].image;
   
