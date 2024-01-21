@@ -2257,7 +2257,7 @@ span {
   .col-list a {
 	color: var(--color-smooth);
 	text-decoration: none;
-	line-height: 1.0;
+	line-height: 0.7;
 	/* line-height: 1.4; */
 	font-weight: 400;
 	cursor: pointer;
