@@ -239,8 +239,9 @@ import { URLs } from './user-data/urls.js';
         ul.append(li);
       });
       nav.append(ul);
-      span.append(nav);
-      projectdesign.append(span);
+      // span.append(nav);
+      projectdesign.append(u1);
+      // projectdesign.append(span);
       
       // End testing project links
 

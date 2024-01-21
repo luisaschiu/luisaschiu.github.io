@@ -85,7 +85,7 @@ export const projects = {
     ballBalancing: [
         {
             projectName: "Ball Balancing Platform",
-            links: "testing",
+            links: "Links:",
             image: "images/ball_balancing.png",
             summary:
                 "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
@@ -97,8 +97,8 @@ export const projects = {
             techStack: ["Python", "MATLAB", "Simulink"],
             data: [
                 {
-                    text: "TESTER LinkedIn",
-                    link: "https://www.linkedin.com/in/luisa-chiu",
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/ME_305",
                 },
             ],
         },
@@ -106,7 +106,7 @@ export const projects = {
     penPlotter: [
         {
             projectName: "Dual-Axis Pen Plotter",
-            links: "tester",
+            links: "Links:",
             image: "images/ATTS.png",
             summary:
                 "Insert info here",
@@ -114,8 +114,8 @@ export const projects = {
             techStack: ["Python", "3D Printing", "SolidWorks", "Actuators"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
-                    text: "TESTER LinkedIn",
-                    link: "https://www.linkedin.com/in/luisa-chiu",
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/ME_405",
                 },
             ],
         },
