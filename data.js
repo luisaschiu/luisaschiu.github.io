@@ -155,7 +155,7 @@ export const projects = {
             data: [
                 {
                     text: "Report",
-                    link: "https://www.youtube.com/watch?v=0-KH5vjydwA",
+                    link: "files/PDR_Report.pdf",
                 },
             ],
         },
