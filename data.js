@@ -104,7 +104,7 @@ export const projects = {
             // timeline: "3 months (September 2021 - December 2021)",
             image: "images/ball_balancing.jpg",
             summary:
-                "tester \n For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
+                "tester /n For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
                 an IMU, and a resistive touch panel to balance a ball on a platform. We simulated closed-loop control of \
                 DC motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before applying \
                 it to the real-life model. Additionally, we designed and developed a task diagram and finite state machine to \
@@ -151,7 +151,7 @@ export const projects = {
             image: "images/bed_desk.jpg",
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Sensors"], // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Mechanism Design", "Manufacturing"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "PDR Report",
