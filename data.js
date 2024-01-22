@@ -82,6 +82,22 @@ export const skills = [
 ];
 
 export const projects = {
+    penPlotter: [
+        {
+            projectName: "Dual-Axis Pen Plotter",
+            links: "Links:",
+            image: "images/pen_plotter.jpg",
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "3D Printing", "SolidWorks", "Actuators", "Tolerancing"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [
+                {
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/Dual-AxisPenPlotter",
+                },
+            ],
+        },
+    ],
     ballBalancing: [
         {
             projectName: "Ball Balancing Platform",
@@ -106,29 +122,45 @@ export const projects = {
                     link: "https://docs.google.com/presentation/d/1zU3avEw_QoErOw8UOeQKcBMYGLnliPxZZhomeFnZxes/edit#slide=id.p1",
                 },
                 {
-                    text: "Documentation and Reports",
+                    text: "Documentation and Lab Reports",
                     link: "ME305_Portfolio/index.html",
                 }
             ],
         },
     ],
-    penPlotter: [
+    projCoNNet: [
         {
-            projectName: "Dual-Axis Pen Plotter",
+            projectName: "At-Home Multiplayer Arcade BasketBall Game (Project CoNNet)",
             links: "Links:",
-            image: "images/pen_plotter.jpg",
+            image: "images/proj_connet.jpg",
             summary:
-                "Insert info here",
-            preview: "https://luisaschiu.github.io/", // link video or presentation
-            techStack: ["Python", "3D Printing", "SolidWorks", "Actuators", "Tolerancing"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Project Management", "Sensors"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
-                    text: "Github Repo",
-                    link: "https://github.com/luisaschiu/Dual-AxisPenPlotter",
+                    text: "Hackathon Video",
+                    link: "https://www.youtube.com/watch?v=0-KH5vjydwA",
                 },
             ],
         },
     ],
+    bedDesk: [
+        {
+            projectName: "Bed Desk for Ergonomics Improvement",
+            links: "Links:",
+            image: "images/bed_desk.jpg",
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Sensors"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [
+                {
+                    text: "Report",
+                    link: "https://www.youtube.com/watch?v=0-KH5vjydwA",
+                },
+            ],
+        },
+    ],
+
 };
 
 export const experience = [

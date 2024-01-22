@@ -9,7 +9,7 @@ import {
 
 import { URLs } from './user-data/urls.js';
   
-  const { ballBalancing, penPlotter} =
+  const { penPlotter, ballBalancing, projCoNNet, bedDesk} =
     projects;
   const { medium, gitConnected } = URLs;
   

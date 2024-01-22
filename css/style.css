@@ -988,7 +988,7 @@ body.offcanvas .colorlib-nav-toggle {
 	span {
 	-webkit-opacity: 0.4;
 	-moz-opacity: 0.4;
-	opacity: 0.4;
+	opacity: 0.5;
 	-ms-filter: alpha(opacity=40);
 	filter: alpha(opacity=40);
 	font-size: 16px;
