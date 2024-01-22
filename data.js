@@ -90,10 +90,10 @@ export const projects = {
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
-            data: [ //TO-DO: Insert Links
+            data: [
                 {
-                    text: "TO-DO: Insert Links",
-                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/AutonomousRobotDRL", //TO-DO: Insert Links
                 },
             ],
         },
@@ -106,10 +106,10 @@ export const projects = {
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
-            data: [ //TO-DO: Insert Links
+            data: [
                 {
-                    text: "TO-DO: Insert Links",
-                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/CPE_416", //TO-DO: Insert Links
                 },
             ],
         },
@@ -122,10 +122,10 @@ export const projects = {
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["Python", "Computer Vision"], // TODO: UPDATE WHEN YOU HAVE TIME
-            data: [ //TO-DO: Insert Links
+            data: [ 
                 {
                     text: "Final Report",
-                    link: "files/Comp_Vision_FinalProj_Report.pdf",
+                    link: "files/Comp_Vision_FinalProj_Report.pdf", //TO-DO: Insert Links
                 },
             ],
         },
@@ -140,8 +140,8 @@ export const projects = {
             techStack: ["SolidWorks", "C++", "Wifi"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
-                    text: "TO-DO: Insert Links",
-                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/TeamSlicers/tree/main/main/src", //TO-DO: Insert Links
                 },
             ],
         },
@@ -170,7 +170,7 @@ export const projects = {
             summary:
                 "This project was completed in collaboration with another classmate to design, manufacture, and \
                 develop code for a pen plotter system that automatically plots an image using a hpgl file input.\
-                The multitasking program was developed for a STM32 microcontroller to interact with components such as: DC motors \
+                The multitasking program was developed for a STM32 microcontroller to interact with the following components: DC motors \
                 with encoders, limit switches, and a solenoid. We designed the entire mechanism to use a cylindrical axis, such that \
                 drive shaft rotates in the theta direction using motor torque and a drive wheel a lead screw translationally \
                 moves the pen in the radial direction using the torque from a second motor. Parts of the assembly were designed, \
