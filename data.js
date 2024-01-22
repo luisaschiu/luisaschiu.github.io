@@ -82,18 +82,107 @@ export const skills = [
 ];
 
 export const projects = {
+    mastersThesis: [
+        {
+            projectName: "Master's Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
+            links: "Links:",
+            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [ //TO-DO: Insert Links
+                {
+                    text: "TO-DO: Insert Links",
+                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                },
+            ],
+        },
+    ],
+    autoRobot: [
+        {
+            projectName: "Algorithm Development for an Autonomous Mobile Robot",
+            links: "Links:",
+            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [ //TO-DO: Insert Links
+                {
+                    text: "TO-DO: Insert Links",
+                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                },
+            ],
+        },
+    ],
+    compVision: [
+        {
+            projectName: "Robot Pose Estimation using Computer Vision",
+            links: "Links:",
+            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "Computer Vision"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [ //TO-DO: Insert Links
+                {
+                    text: "Final Report",
+                    link: "files/Comp_Vision_FinalProj_Report.pdf",
+                },
+            ],
+        },
+    ],
+    produceSlicer: [
+        {
+            projectName: "Automated Produce Slicer",
+            links: "Links:",
+            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["SolidWorks", "C++", "Wifi"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [
+                {
+                    text: "TO-DO: Insert Links",
+                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                },
+            ],
+        },
+    ],
+    seniorDesign: [
+        {
+            projectName: "Senior Design Project: Bike to the Future",
+            links: "Links:",
+            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            summary:
+                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["SolidWorks", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [
+                {
+                    text: "TO-DO: Insert Links",
+                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                },
+            ],
+        },
+    ],
     penPlotter: [
         {
             projectName: "Dual-Axis Pen Plotter",
             links: "Links:",
             image: "images/pen_plotter.jpg",
             summary:
-                "This project is a pen plotter system that automatically plots an image using the inputted hpgl file.", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Python", "3D Printing", "SolidWorks", "Actuators", "Tolerancing"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "This project was completed in collaboration with another classmate to design, manufacture, and \
+                develop code for a pen plotter system that automatically plots an image using a hpgl file input.\
+                The multitasking program was developed for a STM32 microcontroller to interact with components such as: DC motors \
+                with encoders, limit switches, and a solenoid. We designed the entire mechanism to use a cylindrical axis, such that \
+                drive shaft rotates in the theta direction using motor torque and a drive wheel a lead screw translationally \
+                moves the pen in the radial direction using the torque from a second motor. Parts of the assembly were designed, \
+                modeled on SolidWorks, and 3-D printed. For example, a solenoid was housed in a 3-D printed part to interact with \
+                our a 3D-printed lever for the pen to contact the paper. Our drive wheel, T-slot mechanism, motor mounts, and other \
+                parts were designed and 3-D printed as well. Ball bearings were press-fit into 3-D printed parts to ensured smooth \
+                rotation of the lead screw and drive shaft as they rotated with the assembly.",
+            techStack: ["Python", "3D Printing", "SolidWorks", "Mechanisms", "Kinematics", "Mechanical Design", "Actuators", "Tolerancing (Press/Clearance Fits)"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Github Repo",
-                    link: "https://github.com/luisaschiu/Dual-AxisPenPlotter",
+                    link: "https://github.com/luisaschiu/ME405/tree/main/Dual-AxisPenPlotter",
                 },
             ],
         },
@@ -104,18 +193,23 @@ export const projects = {
             // timeline: "3 months (September 2021 - December 2021)",
             image: "images/ball_balancing.jpg",
             summary:
-                "tester /n For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with motors, \
-                an IMU, and a resistive touch panel to balance a ball on a platform. We simulated closed-loop control of \
-                DC motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before applying \
-                it to the real-life model. Additionally, we designed and developed a task diagram and finite state machine to \
-                organize the cooperative multitasking structure of the program.",
+                "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with \
+                a mechanism assembly consisting of motors, an IMU(Inertial Measurement Unit), and a \
+                resistive touch panel to balance a ball on a platform assembly. Kinematic and dynamic analysis of the assembly was conducted \
+                to find equations for motion control of the simulated and real-life models. We simulated closed-loop control of \
+                DC motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before implementing the control system \
+                in the physical model. Additionally, we designed and developed a task diagram and finite state machine to \
+                organize the cooperative multitasking structure of the program. Through this project, I gained experience and knowledge on \
+                conducting kinematic and dynamic analysis of assemblies such as the ball-balancing platform, the development and design of \
+                a cooperative multitasking program, and the usage of simulations to validate and assist implementations of control systems \
+                in physical models.",
             preview: "https://luisaschiu.github.io/",
             techStack: ["Python", "MATLAB", "Simulink"],
             links: "Links:",
             data: [
                 {
                     text: "Github Repo",
-                    link: "https://github.com/luisaschiu/BallBalancingPlatform",
+                    link: "https://github.com/luisaschiu/ME305/tree/main/BallBalancingPlatform",
                 },
                 {
                     text: "Powerpoint Slides",
@@ -151,7 +245,7 @@ export const projects = {
             image: "images/bed_desk.jpg",
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Mechanism Design", "Manufacturing"], // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Mechanical Design", "Manufacturing", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "PDR Report",

@@ -9,7 +9,7 @@ import {
 
 import { URLs } from './user-data/urls.js';
   
-  const { penPlotter, ballBalancing, projCoNNet, bedDesk} =
+  const { mastersThesis, autoRobot, compVision, produceSlicer, seniorDesign, penPlotter, ballBalancing, projCoNNet, bedDesk} =
     projects;
   const { medium, gitConnected } = URLs;
   
@@ -494,7 +494,12 @@ import { URLs } from './user-data/urls.js';
   // fetchBlogsFromMedium(medium);
   // fetchGitConnectedData(gitConnected);
   
-  
+   
+  populateProjects(mastersThesis, "masters-thesis");
+  populateProjects(autoRobot, "auto-robot");
+  populateProjects(compVision, "comp-vision");
+  populateProjects(produceSlicer, "produce-slicer");
+  populateProjects(seniorDesign, "senior-design");
   populateProjects(penPlotter, "pen-plotter");
   populateProjects(ballBalancing, "ball-balancing");
   populateProjects(projCoNNet, "CoNNet");
