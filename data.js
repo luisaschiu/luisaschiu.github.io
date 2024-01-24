@@ -88,7 +88,13 @@ export const projects = {
             links: "Links:",
             image: "images/masters_thesis.png", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
+                "For my thesis, I will be designing an autonomous wheeled mobile robot that perceives its \
+                environment through vision and utilizes reinforcement learning to learn the optimal path \
+                within a maze and navigate it. The robot will also be able to modify its path if the \
+                environment suddenly changes, also known as a dynamic environment. The dynamic factor \
+                will be blocking off the initial optimal path, and the robot will have to figure out \
+                the next best path to take. Currently, I am in the process of implementing a deep \
+                Q-learning algorithm in a simulated environment before implementing it in a physical robot.", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["Python", "Simulation", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
@@ -104,10 +110,16 @@ export const projects = {
             links: "Links:",
             image: "images/auto_robot.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "In Cal Poly's autonomous mobile robotics course, my lab partner and I designed and developed algorithms \
+                for a robot to perform the following tasks: following a line on different courses using a proportional \
+                controller method and a convolutional neural network (CNN) method, detecting and knocking over \
+                a target tower using Monte Carlo localization, and sensing and pushing cans off of a course. \
+                We developed software in C to interact with hardware and electronic components such as servo motors, \
+                IR sensors, and range sensors. Additionally, I designed and CAD modeled sensor brackets and 3-D \
+                printed them to mount on the robot.", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["C (Programming Language)", "Line-Following", "Localization", "Neural Networks", "3-D Printing", "Sensors", "Tolerancing(Press/Clearance Fits)"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
-                {
+                { // Insert videos of the car moving
                     text: "Github Repo",
                     link: "https://github.com/luisaschiu/CPE_416", //TO-DO: Insert Links
                 },
@@ -118,10 +130,14 @@ export const projects = {
         {
             projectName: "Robot Pose Estimation using Computer Vision",
             links: "Links:",
-            image: "images/comp_vision.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/comp_vision.jpg",
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Python", "AruCo", "Computer Vision"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "This project was completed to assist my thesis in a robot navigating a maze using deep reinforcement learning. \
+                For this project, I used an existing robot manufactured by DFRobot, named Maqueen, that used a micro-bit controller \
+                to control its motors and other sensors. I designed, CAD modeled, and 3-D printed a part to obscure the robot and provide \
+                a flat platform to stick a tracker (AruCo marker) on it. Using a camera, AruCo markers, and OpenCV, I found the orientation \
+                and position of the robot. Additionally, I developed some test cases to test the functionality of the program.", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "AruCo", "Computer Vision", "OpenCV", "SolidWorks", "3-D Printing"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [ 
                 {
                     text: "Github Repo",
@@ -140,8 +156,12 @@ export const projects = {
             links: "Links:",
             image: "images/auto_slicer.jpg",
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["C++", "SolidWorks", "Wifi", "3-D Printing", "Mechanisms", "Mechanical Design"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "This project was completed in collaboration with two other mechanical engineers, designed for users to have a machine slice their produce for them. \
+                For this project, I developed C++ code for microcontroller to interact with motors, sensors, and limit switches and ensured accurate timing execution \
+                through implementation of a real-time operating system using FreeRTOS and PlatformIO. I also collaborated on a PCB (printed circuit board) designed for \
+                our project application using Autodesk Eagle. Additionally, I manufactured project components using a plasma cutter, angle grinder, and other woodworking tools \
+                Lastly, I designed 3D printed parts through CAD modeling with emphasis in tolerancing for clearance and press fits.",
+            techStack: ["C++", "SolidWorks", "Wifi", "3-D Printing", "PlatformIO", "Mechanical Design", "Manufacturing"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Github Repo",
@@ -160,8 +180,8 @@ export const projects = {
             techStack: ["SolidWorks", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
-                    text: "TO-DO: Insert Links",
-                    link: "https://luisaschiu.github.io/", //TO-DO: Insert Links
+                    text: "Digital Commons Publication",
+                    link: "https://digitalcommons.calpoly.edu/mesp/677/", //TO-DO: Insert Links
                 },
             ],
         },
@@ -227,8 +247,15 @@ export const projects = {
             links: "Links:",
             image: "images/proj_connet.jpg",
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Project Management", "Sensors"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "In 2021, I participated in a hackathon named SLO Hacks Lite and created Project CoNNet, designed to keep people \
+                connected and entertained during the COVID-19 pandemic lockdown. The idea was to create an arcade basketball \
+                minigame using at-home resources and electronic components so that anyone could build their own and \
+                play against other players in their own homes and in real time. This project was completed in under 24 hours \
+                through virtual collaboration with a multidisciplinary engineering team, earning 2nd place. I designed and built \
+                a minigame prototype using Arduino UNO, circuit components, and at-home resources. In addition to being an engineer \
+                on this team, I took on the project manager role and led and facilitated meetings by communicating goals and \
+                delegating tasks to optimize members' skills and ensure timely completion of our project.",
+            techStack: ["Time Management", "Project Management", "Sensors", "Arduino"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Hackathon Video",
@@ -243,9 +270,14 @@ export const projects = {
             links: "Links:",
             image: "images/bed_desk.jpg",
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Mechanical Design", "Manufacturing", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
-            data: [
+                "This project was designed to improve the ergonomics of working in a bed through implementation of height adjustable and \
+                angle-adjustable features. I conducted research on ergonomic risk factors and bed workspaces, developed and finalized \
+                design concepts through ideation and modeling, and prepared Scope of Work and Preliminary Design Review documents. Lastly, \
+                I designed and built a working concept prototype with height adjustable and angle elevation mechanisms out of foam core, \
+                cardboard, and pencils. This bed desk was created with an emphasis in human-centered design, taking \
+                usability, functionality, and accessibility into account.",
+            techStack: ["Mechanical Design", "Manufacturing", "Human-Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
+            data: [ //Maybe include the Youtube video?
                 {
                     text: "PDR Report",
                     link: "files/PDR_Report.pdf",
