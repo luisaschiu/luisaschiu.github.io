@@ -86,10 +86,10 @@ export const projects = {
         {
             projectName: "Master's Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
             links: "Links:",
-            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/masters_thesis.png", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "Simulation", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Github Repo",
@@ -102,7 +102,7 @@ export const projects = {
         {
             projectName: "Algorithm Development for an Autonomous Mobile Robot",
             links: "Links:",
-            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/auto_robot.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["C", "Line-Following", "Localization", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
@@ -118,7 +118,7 @@ export const projects = {
         {
             projectName: "Robot Pose Estimation using Computer Vision",
             links: "Links:",
-            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/comp_vision.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["Python", "Computer Vision"], // TODO: UPDATE WHEN YOU HAVE TIME
@@ -134,7 +134,7 @@ export const projects = {
         {
             projectName: "Automated Produce Slicer",
             links: "Links:",
-            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/auto_slicer.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["SolidWorks", "C++", "Wifi"], // TODO: UPDATE WHEN YOU HAVE TIME
@@ -150,7 +150,7 @@ export const projects = {
         {
             projectName: "Senior Design Project: Bike to the Future",
             links: "Links:",
-            image: "images/proj_connet.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/senior_proj.png", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["SolidWorks", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
