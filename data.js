@@ -121,8 +121,12 @@ export const projects = {
             image: "images/comp_vision.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Python", "Computer Vision"], // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "AruCo", "Computer Vision"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [ 
+                {
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/CPE-EE428/tree/main/RobotPoseEstimation", //TO-DO: Insert Links
+                },
                 {
                     text: "Final Report",
                     link: "files/Comp_Vision_FinalProj_Report.pdf", //TO-DO: Insert Links
@@ -137,7 +141,7 @@ export const projects = {
             image: "images/auto_slicer.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["SolidWorks", "C++", "Wifi"], // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["C++", "SolidWorks", "Wifi", "3-D Printing", "Mechanisms", "Mechanical Design"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Github Repo",
@@ -260,7 +264,7 @@ export const experience = [
         details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation`,
                   `Developed function blocks for conversion between Euler Angles and Quaternions to prevent gimbal lock and singularities for future robotic applications`,
                   `Tested function blocks by creating test cases using MATLAB and MotionWorksIEC and running a demonstration on Yaskawa's GP8 6-DOF robot arm`,
-                  `Familiarized myself with the GP8 robot through training material and interacted with Yaskawa's YRC1000 controller and robot pendant`,
+                  `Familiarized myself with the GP8 robot through training material and interacting with Yaskawa's YRC1000 controller and robot pendant`,
                   `Developed a path calculation function for a pick and place robot application and created a Sequential Function Chart(SFC) program \
                   to showcase and visually test the usage of the interpolation function block`,
                   `Manufactured an end effector attachment for the GP8 robot to visually inspect developed function block application`,
