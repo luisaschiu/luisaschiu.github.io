@@ -174,9 +174,7 @@ export const projects = {
                 with encoders, limit switches, and a solenoid. We designed the entire mechanism to use a cylindrical axis, such that \
                 drive shaft rotates in the theta direction using motor torque and a drive wheel a lead screw translationally \
                 moves the pen in the radial direction using the torque from a second motor. Parts of the assembly were designed, \
-                modeled on SolidWorks, and 3-D printed. For example, a solenoid was housed in a 3-D printed part to interact with \
-                our a 3D-printed lever for the pen to contact the paper. Our drive wheel, T-slot mechanism, motor mounts, and other \
-                parts were designed and 3-D printed as well. Ball bearings were press-fit into 3-D printed parts to ensured smooth \
+                modeled on SolidWorks, and 3-D printed. Ball bearings were press-fit into 3-D printed parts to ensure smooth \
                 rotation of the lead screw and drive shaft as they rotated with the assembly.",
             techStack: ["Python", "3D Printing", "SolidWorks", "Mechanisms", "Kinematics", "Mechanical Design", "Actuators", "Tolerancing (Press/Clearance Fits)"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
@@ -194,15 +192,12 @@ export const projects = {
             image: "images/ball_balancing.jpg",
             summary:
                 "For this mechatronics project, my lab partner and I developed software for a STM32 microcontroller to interact with \
-                a mechanism assembly consisting of motors, an IMU(Inertial Measurement Unit), and a \
-                resistive touch panel to balance a ball on a platform assembly. Kinematic and dynamic analysis of the assembly was conducted \
+                a mechanism assembly consisting of motors, an IMU(Inertial Measurement Unit), and a resistive touch panel \
+                to balance a ball on a platform. Kinematic and dynamic analysis of the platform assembly was conducted \
                 to find equations for motion control of the simulated and real-life models. We simulated closed-loop control of \
                 DC motor speeds using MATLAB and Simulink to assist with finding suitable proportional gain values before implementing the control system \
                 in the physical model. Additionally, we designed and developed a task diagram and finite state machine to \
-                organize the cooperative multitasking structure of the program. Through this project, I gained experience and knowledge on \
-                conducting kinematic and dynamic analysis of assemblies such as the ball-balancing platform, the development and design of \
-                a cooperative multitasking program, and the usage of simulations to validate and assist implementations of control systems \
-                in physical models.",
+                organize the cooperative multitasking structure of the program.",
             preview: "https://luisaschiu.github.io/",
             techStack: ["Python", "MATLAB", "Simulink"],
             links: "Links:",
