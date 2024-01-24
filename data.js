@@ -129,7 +129,7 @@ export const projects = {
                 },
                 {
                     text: "Final Report",
-                    link: "files/Comp_Vision_FinalProj_Report.pdf", //TO-DO: Insert Links
+                    link: "files/Comp_Vision_FinalProj_Report.pdf",
                 },
             ],
         },
@@ -138,7 +138,7 @@ export const projects = {
         {
             projectName: "Automated Produce Slicer",
             links: "Links:",
-            image: "images/auto_slicer.jpg", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/auto_slicer.jpg",
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["C++", "SolidWorks", "Wifi", "3-D Printing", "Mechanisms", "Mechanical Design"], // TODO: UPDATE WHEN YOU HAVE TIME
@@ -154,7 +154,7 @@ export const projects = {
         {
             projectName: "Senior Design Project: Bike to the Future",
             links: "Links:",
-            image: "images/senior_proj.png", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/senior_proj.png",
             summary:
                 "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
             techStack: ["SolidWorks", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
