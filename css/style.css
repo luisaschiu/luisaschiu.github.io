@@ -177,18 +177,19 @@ figure figcaption {
 	width: 150px;
 	height: 150px;
 	margin: 0 auto;
-	margin-bottom: 30px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	border-radius: 50%;
+	/* margin-bottom: 30px; */
+	/* -webkit-border-radius: 50%; */
+	/* -moz-border-radius: 50%; */
+	/* -ms-border-radius: 50%; */
+	/* border-radius: 50%; */
 	/* border: 3px solid white; */
 }
 
 #colorlib-aside .author-img img{
 	height: 100%; 
     object-fit: contain;
-	padding: 30px;
+	padding: 10px;
+	border-radius: 50%;
 }
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
@@ -204,7 +205,7 @@ figure figcaption {
 	text-align: right;
 	font-weight: 700;
 	font-size: 30px;
-	margin-bottom: 0.5em;
+	margin-bottom: 0;
 	display: block;
 	width: 100%;
 }
@@ -620,6 +621,7 @@ body.offcanvas .colorlib-nav-toggle {
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
+	/* border-radius: 50%; */
 }
 
 .colorlib-heading {
@@ -2296,3 +2298,6 @@ span {
     font-weight: 600;
 }
   
+img.rounded-corners {
+	border-radius: 50%;
+  }
