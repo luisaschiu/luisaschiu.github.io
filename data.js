@@ -165,9 +165,13 @@ export const projects = {
             image: "images/auto_slicer.jpg",
             summary:
                 "This project was completed in collaboration with two other mechanical engineers, designed for users to have a machine slice their produce for them. \
-                For this project, I developed C++ code for microcontroller to interact with motors, sensors, and limit switches and ensured accurate timing execution \
+                Our team created a user interface so we can connect to our ESP32 microcontroller via Wifi, where we guide the user through the setup process such as \
+                choosing slice thicknesses, start or stopping the slicer machine, and more. The hardware implemented was using a lead screw and nut for a 3-D printed \
+                pusher to guide produce to the blade, as a triangular blade oscillates back and forth. A DC motor coupled with a two-link linkage mechanism provided \
+                the torque to move the blade back and forth, and the blade was connected to a 3-D printed T-slot sliding mechanism to ensure translational motion \
+                For this project, I developed C++ code for the ESP32 to interact with motors, sensors, and limit switches and ensured accurate timing execution \
                 through implementation of a real-time operating system using FreeRTOS and PlatformIO. I also collaborated on a PCB (printed circuit board) designed for \
-                our project application using Autodesk Eagle. Additionally, I manufactured project components using a plasma cutter, angle grinder, and other woodworking tools \
+                our project application using Autodesk Eagle. Additionally, I manufactured project components using a plasma cutter, angle grinder, and other woodworking tools. \
                 Lastly, I designed 3D printed parts through CAD modeling with emphasis in tolerancing for clearance and press fits.",
             techStack: ["C++", "SolidWorks", "Wifi", "3-D Printing", "PlatformIO", "Mechanical Design", "Manufacturing"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
