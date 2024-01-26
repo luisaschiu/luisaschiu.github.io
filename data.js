@@ -123,6 +123,14 @@ export const projects = {
                     text: "Github Repo",
                     link: "https://github.com/luisaschiu/CPE_416", //TO-DO: Insert Links
                 },
+                {
+                    text: "Video: Line-Following using P-Control",
+                    link: "https://youtu.be/lyRhuEIH2L0",
+                },
+                {
+                    text: "Video: Pushing Can Operation",
+                    link: "https://youtu.be/aiwHPDRi1S4",
+                },
             ],
         },
     ],
@@ -176,8 +184,17 @@ export const projects = {
             links: "Links:",
             image: "images/senior_proj.png",
             summary:
-                "TO-DO: Insert info here", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["SolidWorks", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "For my senior project, I worked with a multidisciplinary team of student engineers to design a sensor feedback system with a focus \
+                on usability and functionality for a visually impaired biker. We designed the system such that LiDAR and ultrasonic sensors detected \
+                objects in front of the bike path, while tactile signals from Lilypad Vibe Boards and audio signals from Piezo speakers warned the \
+                biker of any obstacles detected. In addition to these components, we designed a dashboard assembly mounted on top of an extra set \
+                of handlebars to organize and house several electronic components in a waterproof enclosure. The extra set of handlebars addressed \
+                the customer's ergonomic issues with his original bike's handlebars being too low. Additionally, we included an external power \
+                switch and charging port to make it convenient for the user to charge the battery and turn the sensor feedback system on and off. My \
+                role in this team was mainly focused in hardware design, figuring out the best way to organize components and assemble the dashboard. \
+                I focused on creating and 3D CAD models of the project assembly that contained over 20 parts using SolidWorks. I also produced a \
+                comprehensive instructional and informative video to guide the customer in assembling the product and features provided.",
+            techStack: ["SolidWorks", "Mechanical Design", "Human Centered Design"], // TODO: UPDATE WHEN YOU HAVE TIME
             data: [
                 {
                     text: "Digital Commons Publication",
