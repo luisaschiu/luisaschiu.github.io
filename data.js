@@ -25,7 +25,7 @@ export const education = [
             "Mechanical Control System Design",
             "Computational Intelligence"
         ],
-        duration: "January 2022 - June 2024",
+        duration: "January 2023 - June 2024",
         icon: "university",
     },
     {
