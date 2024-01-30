@@ -23,7 +23,8 @@ export const education = [
             "Computer Vision",
             "System Dynamics",
             "Mechanical Control System Design",
-            "Computational Intelligence"
+            "Computational Intelligence",
+            "Control Systems Theory"
         ],
         duration: "January 2023 - June 2024",
         icon: "university",
