@@ -16,7 +16,7 @@ export const education = [
         
         subtitle: "Cal Poly San Luis Obispo",
         details: ["Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
-            "GPA: 3.82"],
+            "GPA: 3.86"],
         tags: [
             "Autonomous Mobile Robotics",
             "Advanced Deep Learning",
@@ -324,8 +324,7 @@ export const experience = [
                   `Manufactured an end effector attachment for the GP8 robot to visually inspect developed function block application`,
                   `Wrote functional requirements and documented the developed function blocks for future use`,
                   `Audited code by diving into existing function block code and testing for expected results`,
-                  `Documented differences in function blocks between remote and local groups, indicating whether some function block inputs or features \
-                  were supported or not`],
+                  `Documented differences in function blocks between remote and local groups`],
         tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing", "Code Audit"],
         icon: "microchip",
     },
