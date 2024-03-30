@@ -315,10 +315,10 @@ export const experience = [
         title: "Yaskawa America, Inc. - Drives and Motion Division",
         duration: "June 2023 - September 2023",
         subtitle: "Applications Engineering Intern",
-        details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation and conversions
-                   between Euler Angles and Quaternions to prevent gimbal lock and singularities for future robotic applications`,
-                  `Developed test cases for function blocks using MATLAB and MotionWorksIEC and running a demonstration on Yaskawa's GP8 6-DOF robot arm`,
-                  `Developed a path calculation function for a pick and place robot application and created a Sequential Function Chart(SFC) program \
+        details: [`Developed function blocks for interpolation based on path percentage using SLERP and linear interpolation`,
+                  `Developed function blocks for conversions between Euler Angles and Quaternions to prevent gimbal lock and singularities for future robotic applications`,
+                   `Developed test cases for function blocks using MATLAB and MotionWorksIEC`,
+                  `Ran a pick and place demonstration on Yaskawa's GP8 6-DOF robot arm by creating a path calculation function and a Sequential Function Chart(SFC) program \
                   to showcase and visually test the usage of the interpolation function block`,
                   `Manufactured an end effector attachment for the GP8 robot to visually inspect developed function block application`,
                   `Wrote functional requirements and documented the new function blocks for future use`,
