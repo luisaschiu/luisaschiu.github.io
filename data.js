@@ -89,18 +89,33 @@ export const projects = {
             links: "Links:",
             image: "images/masters_thesis.png", // TODO: UPDATE WHEN YOU HAVE TIME
             summary:
-                "For my thesis, I will be designing an autonomous wheeled mobile robot that perceives its \
-                environment through vision and utilizes reinforcement learning to learn the optimal path \
-                within a maze and navigate it. The robot will also be able to modify its path if the \
-                environment suddenly changes, also known as a dynamic environment. The dynamic factor \
-                will be blocking off the initial optimal path, and the robot will have to figure out \
-                the next best path to take. Currently, I am in the process of implementing a deep \
-                Q-learning algorithm in a simulated environment before implementing it in a physical robot.", // TODO: UPDATE WHEN YOU HAVE TIME
-            techStack: ["Python", "Simulation", "Neural Networks"], // TODO: UPDATE WHEN YOU HAVE TIME
+                "For my master's thesis, I designed and created a simulation of an agent (autonomous wheeled mobile) that perceives its \
+                environment through vision and utilizes deep reinforcement learning to learn the optimal path \
+                within a maze environment and navigate it. The robot will be able to modify its path if the \
+                environment suddenly changes, also known as a dynamic environment. Additionally, the robot will \
+                be able to handle stochastic outcomes such as slip. This thesis explored the performance of Deep \
+                Q-Networks (DQN), using images as an input, for \
+                mobile robot navigation in dynamic maze puzzles and aims to contribute to advancements in deep \
+                reinforcement learning applications for simulated and real-life robotic systems. This project \
+                was a step towards implementation in a hardware-based system. The proposed approach uses a DQN \
+                algorithm with experience replay and an epsilon-greedy annealing schedule. Experiments were conducted \
+                to train DQN agents in static and dynamic maze environments, and various reward functions and training \
+                strategies were explored to optimize learning outcomes. In this context, the dynamic aspect involves \
+                training the agent on fixed mazes and then testing its performance on modified mazes, where obstacles \
+                like walls alter previously optimal paths to the goal. The results indicated that \
+                adequate exploration, well-designed reward functions, and diverse training data significantly \
+                impacted both training performance and game play outcomes. The findings suggest that DQN \
+                approaches are plausible solutions to stochastic outcomes, but expanding upon the proposed \
+                method and more research is needed to improve this methodology. ", // TODO: UPDATE WHEN YOU HAVE TIME
+            techStack: ["Python", "Simulation", "Neural Networks"],
             data: [
                 {
                     text: "Github Repo",
                     link: "https://github.com/luisaschiu/AutonomousRobotDRL", //TO-DO: Insert Links
+                },
+                {
+                    text: "Thesis Paper",
+                    link: "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=4575&context=theses", //TO-DO: Insert Links
                 },
             ],
         },
