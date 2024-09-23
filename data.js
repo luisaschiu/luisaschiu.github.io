@@ -26,7 +26,7 @@ export const education = [
             "Computational Intelligence",
             "Control Systems Theory"
         ],
-        duration: "January 2023 - June 2024",
+        duration: "January 2023 - September 2024",
         icon: "university",
     },
     {
