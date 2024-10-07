@@ -3,7 +3,8 @@ export const bio = [
     majored in Mechanical Engineering with a concentration in Mechatronics and completed a minor in Computer Science.` ,
     `During my time at Cal Poly, I gained experience in designing, manufacturing, and testing mechanical systems by developing software 
     for microcontrollers to interact with actuators, sensors, and more. Through my school and work experiences, I developed knowledge and skills in:
-    robotics kinematics and dynamics, open and closed-loop control systems, 3D CAD design, 3D printing, and PCB design.`,
+    robotics kinematics and dynamics, open and closed-loop control systems, 3D CAD design, 3D printing, and PCB design.` ,
+    `Currently, I am looking for a full-time job. As I job hunt, I am taking this time to learn new skills such as ROS2 and Linux.` , 
     `Outside of school, I like to be active by playing volleyball and flag football. I also enjoy baking sweets and cooking delicious food
     for my friends and family. I love crafting, trying new food places, and learning new sports. To conclude, as a student focusing on mechatronics-related
     courses in my graduate studies, I am passionate and fascinated about the intersection between mechanical engineering, electronics, and computer science.
