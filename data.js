@@ -111,7 +111,7 @@ export const projects = {
             techStack: ["Python", "Simulation", "Neural Networks"],
             data: [
                 {
-                    text: "Thesis Defense Slides",
+                    text: "Defense Slides",
                     link: "https://cpslo-my.sharepoint.com/:p:/g/personal/mhasan04_calpoly_edu/ERGDq85LcUhLv6MM401-6KwBvJsLcaMrprY9NvmLGnXoQQ?e=ByBHTI", //TO-DO: Insert Links
                 },
                 {
