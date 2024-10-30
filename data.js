@@ -111,12 +111,17 @@ export const projects = {
             techStack: ["Python", "Simulation", "Neural Networks"],
             data: [
                 {
-                    text: "Github Repo",
-                    link: "https://github.com/luisaschiu/AutonomousRobotDRL", //TO-DO: Insert Links
+                    text: "Thesis Defense Slides",
+                    link: "https://cpslo-my.sharepoint.com/:p:/g/personal/mhasan04_calpoly_edu/ERGDq85LcUhLv6MM401-6KwBvJsLcaMrprY9NvmLGnXoQQ?e=ByBHTI", //TO-DO: Insert Links
                 },
+                
                 {
                     text: "Thesis Paper",
                     link: "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=4575&context=theses", //TO-DO: Insert Links
+                },
+                {
+                    text: "Github Repo",
+                    link: "https://github.com/luisaschiu/AutonomousRobotDRL", //TO-DO: Insert Links
                 },
             ],
         },
