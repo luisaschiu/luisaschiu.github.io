@@ -88,7 +88,7 @@ export const projects = {
         {
             projectName: "Master's Thesis: Dynamic Maze Puzzle Navigation using Deep Reinforcement Learning",
             links: "Links:",
-            image: "images/masters_thesis.png", // TODO: UPDATE WHEN YOU HAVE TIME
+            image: "images/masters_thesis.jpg", 
             summary:
                 "For my master's thesis, I designed and created a simulation of an agent (autonomous wheeled mobile) that perceives its \
                 environment through vision and utilizes deep reinforcement learning to learn the optimal path \
