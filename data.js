@@ -377,6 +377,15 @@ export const experience = [
         tags: ["Project Management"],
         icon: "gears",
     },
+    {
+        title: "San Francisco Department of Public Works",
+        duration: "Summer 2017",
+        subtitle: "Mechanical Engineering Intern",
+        details: [`Drafted a detailed AutoCAD layout of the San Francisco Mariposa pump station`,
+                  `Organized and filed official city papers`],
+        tags: ["AutoCAD"],
+        icon: "gears",
+    },
 ];
 
 
