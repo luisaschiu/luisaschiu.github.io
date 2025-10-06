@@ -332,6 +332,17 @@ export const projects = {
 
 export const experience = [
     {
+        title: "Johnson and Johnson Medtech",
+        duration: "April 2025 - present",
+        subtitle: "Associate Robotics Solutions Engineer",
+        details: [`Led system-level debugging to restore robotic functionality critical to meeting program deadlines`,
+                  `Diagnose and resolve system issues through real-time log analysis to ensure uptime in clinical labs`,
+                  `Conduct field operations, including system installation, de-installation, and functional testing`,
+                  `Collaborate with cross-functional engineers to troubleshoot and optimize system performance`],
+        tags: ["Bash", "Robotics"],
+        icon: "heartbeat",
+    },
+    {
         title: "Yaskawa America, Inc. - Drives and Motion Division",
         duration: "June 2023 - September 2023",
         subtitle: "Applications Engineering Intern",
@@ -344,7 +355,7 @@ export const experience = [
                   `Wrote functional requirements and documented the new function blocks for future use`,
                   `Audited code by diving into existing function block code and testing for expected results`,
                   `Documented differences in function blocks between remote and local groups`],
-        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing", "Code Audit"],
+        tags: ["PLCs", "MATLAB", "Interpolation", "Robotics", "Manufacturing", "Code Auditing"],
         icon: "microchip",
     },
     {
