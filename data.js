@@ -1,7 +1,6 @@
 export const bio = [
     `Hello, welcome to my portfolio! My name is Luisa Chiu. I recently completed a Master's Degree in Mechanical Engineering at Cal Poly San Luis Obispo. In my undergraduate studies, I
-    majored in Mechanical Engineering with a concentration in Mechatronics and completed a minor in Computer Science. Currently, I am looking for a full-time job. As I continue my job 
-    search, I am taking this time to develop and learn new skills such as ROS2 and Linux.` ,
+    majored in Mechanical Engineering with a concentration in Mechatronics and completed a minor in Computer Science. Currently, I am working as a Robotics Solutions Engineer at Johnson and Johnson Medtech.` ,
     `During my time at Cal Poly, I gained experience in designing, manufacturing, and testing mechanical systems by developing software 
     for microcontrollers to interact with actuators, sensors, and more. Through my school and work experiences, I developed knowledge and skills in:
     robotics kinematics and dynamics, open and closed-loop control systems, 3D CAD design, 3D printing, and PCB design.` , 
@@ -335,7 +334,7 @@ export const experience = [
         title: "Johnson and Johnson Medtech",
         duration: "April 2025 - present",
         subtitle: "Associate Robotics Solutions Engineer",
-        details: [`Led system-level debugging to restore robotic functionality critical to meeting program deadlines`,
+        details: [`Lead system-level debugging to restore robotic functionality critical to meeting program deadlines`,
                   `Diagnose and resolve system issues through real-time log analysis to ensure uptime in clinical labs`,
                   `Conduct field operations, including system installation, de-installation, and functional testing`,
                   `Collaborate with cross-functional engineers to troubleshoot and optimize system performance`],
